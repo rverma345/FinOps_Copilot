@@ -59,6 +59,6 @@ resources_df = pd.DataFrame(resources_rows, columns=[
 
 # Save to CSV
 billing_df.to_csv("data/billing.csv", index=False)
-resources_df.to_csv("data/resources.csv", index=False)
+resources_df.to_csv("data/resource_metadata.csv", index=False)
 
 print("✅ Sample datasets generated: data/billing.csv & data/resources.csv")
