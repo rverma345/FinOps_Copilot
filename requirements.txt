@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+pydantic
+sqlalchemy
+pandas
+numpy
+streamlit
+pytest
+python-dotenv
+sentence-transformers
+faiss-cpu
+requests
+prometheus-client
+structlog
+faker

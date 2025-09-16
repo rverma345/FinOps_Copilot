@@ -1,0 +1,1201 @@
+invoice_month,account_id,subscription,service,resource_group,resource_id,region,usage_qty,unit_cost,cost
+2025-01,acc-2824,sub-1,Networking,rg-5,res-1,westus,23.46,0.52,12.2
+2025-01,acc-2424,sub-5,App Service,rg-1,res-2,eastus,150.51,0.28,42.14
+2025-01,acc-1434,sub-5,Storage,rg-9,res-3,northeurope,65.84,0.52,34.24
+2025-01,acc-3615,sub-4,SQL Database,rg-5,res-4,westus,45.65,0.51,23.28
+2025-01,acc-7224,sub-1,SQL Database,rg-6,res-5,southeastasia,8.48,0.6,5.09
+2025-01,acc-9785,sub-1,App Service,rg-2,res-6,southeastasia,8.48,0.66,5.6
+2025-01,acc-4150,sub-1,Virtual Machines,rg-4,res-7,centralus,2.99,1.97,5.89
+2025-01,acc-5554,sub-4,Networking,rg-6,res-8,westus,100.56,0.8,80.45
+2025-01,acc-2169,sub-5,Networking,rg-3,res-9,southeastasia,45.95,1.49,68.47
+2025-01,acc-5422,sub-5,Storage,rg-6,res-10,eastus,61.56,0.54,33.24
+2025-01,acc-5386,sub-1,Storage,rg-10,res-11,centralus,1.04,0.5,0.52
+2025-01,acc-3340,sub-3,Storage,rg-4,res-12,southeastasia,175.18,1.12,196.2
+2025-01,acc-7543,sub-3,Storage,rg-3,res-13,southeastasia,89.32,1.04,92.89
+2025-01,acc-3621,sub-4,Kubernetes,rg-2,res-14,northeurope,11.93,0.83,9.9
+2025-01,acc-1188,sub-1,Networking,rg-9,res-15,centralus,10.03,1.56,15.65
+2025-01,acc-8123,sub-2,App Service,rg-1,res-16,centralus,10.13,1.95,19.75
+2025-01,acc-5889,sub-5,Kubernetes,rg-4,res-17,westus,18.14,0.81,14.69
+2025-01,acc-1009,sub-5,SQL Database,rg-8,res-18,eastus,37.2,0.31,11.53
+2025-01,acc-1949,sub-2,Kubernetes,rg-2,res-19,eastus,28.28,1.49,42.14
+2025-01,acc-3103,sub-4,Kubernetes,rg-3,res-20,centralus,17.21,1.1,18.93
+2025-01,acc-9835,sub-2,Networking,rg-5,res-21,northeurope,47.32,1.99,94.17
+2025-01,acc-9479,sub-4,Virtual Machines,rg-4,res-22,westus,7.51,0.22,1.65
+2025-01,acc-4770,sub-5,Storage,rg-1,res-23,eastus,17.28,1.44,24.88
+2025-01,acc-1514,sub-3,Virtual Machines,rg-9,res-24,westus,22.81,0.63,14.37
+2025-01,acc-3167,sub-5,Kubernetes,rg-8,res-25,westus,30.45,1.59,48.42
+2025-01,acc-2588,sub-4,SQL Database,rg-7,res-26,northeurope,76.9,0.99,76.13
+2025-01,acc-1993,sub-4,Networking,rg-6,res-27,eastus,11.14,0.57,6.35
+2025-01,acc-3296,sub-4,Storage,rg-5,res-28,northeurope,36.1,0.57,20.58
+2025-01,acc-2604,sub-1,Networking,rg-9,res-29,eastus,44.88,1.94,87.07
+2025-01,acc-8956,sub-4,Storage,rg-7,res-30,eastus,2.38,0.41,0.98
+2025-01,acc-8454,sub-3,App Service,rg-9,res-31,northeurope,46.77,0.39,18.24
+2025-01,acc-9883,sub-1,Networking,rg-6,res-32,eastus,9.35,0.2,1.87
+2025-01,acc-3579,sub-1,Kubernetes,rg-2,res-33,westus,3.36,0.23,0.77
+2025-01,acc-7615,sub-1,Kubernetes,rg-4,res-34,southeastasia,148.68,1.23,182.88
+2025-01,acc-9565,sub-3,SQL Database,rg-4,res-35,centralus,168.53,0.55,92.69
+2025-01,acc-8491,sub-3,Virtual Machines,rg-1,res-36,northeurope,82.62,1.28,105.75
+2025-01,acc-9808,sub-2,Kubernetes,rg-5,res-37,westus,18.16,1.87,33.96
+2025-01,acc-5669,sub-2,App Service,rg-9,res-38,centralus,5.14,1.26,6.48
+2025-01,acc-5905,sub-1,Storage,rg-5,res-39,eastus,57.64,1.79,103.18
+2025-01,acc-5462,sub-3,Kubernetes,rg-4,res-40,centralus,29.0,0.49,14.21
+2025-01,acc-9004,sub-3,Virtual Machines,rg-2,res-41,northeurope,6.51,1.68,10.94
+2025-01,acc-3143,sub-3,Storage,rg-8,res-42,southeastasia,34.18,1.44,49.22
+2025-01,acc-2232,sub-2,Kubernetes,rg-1,res-43,centralus,1.75,1.21,2.12
+2025-01,acc-1685,sub-3,SQL Database,rg-1,res-44,centralus,120.02,0.5,60.01
+2025-01,acc-6794,sub-5,App Service,rg-10,res-45,westus,14.97,1.86,27.84
+2025-01,acc-7755,sub-1,Storage,rg-6,res-46,northeurope,54.31,1.62,87.98
+2025-01,acc-3608,sub-1,App Service,rg-1,res-47,northeurope,18.68,0.52,9.71
+2025-01,acc-4728,sub-2,Virtual Machines,rg-4,res-48,northeurope,36.71,0.72,26.43
+2025-01,acc-9346,sub-4,Networking,rg-9,res-49,centralus,39.56,1.88,74.37
+2025-01,acc-5349,sub-1,Virtual Machines,rg-10,res-50,northeurope,10.22,0.76,7.77
+2025-01,acc-9379,sub-1,App Service,rg-10,res-51,westus,174.64,0.58,101.29
+2025-01,acc-9518,sub-5,Networking,rg-4,res-52,centralus,74.61,0.92,68.64
+2025-01,acc-6143,sub-1,Networking,rg-5,res-53,southeastasia,140.25,0.69,96.77
+2025-01,acc-5844,sub-5,Storage,rg-4,res-54,northeurope,112.61,1.36,153.15
+2025-01,acc-5930,sub-4,Kubernetes,rg-1,res-55,centralus,45.55,0.65,29.61
+2025-01,acc-6279,sub-4,App Service,rg-8,res-56,westus,127.47,1.07,136.39
+2025-01,acc-5649,sub-5,Networking,rg-10,res-57,centralus,4.63,0.28,1.3
+2025-01,acc-4680,sub-2,Storage,rg-1,res-58,eastus,10.91,0.57,6.22
+2025-01,acc-8461,sub-4,Networking,rg-10,res-59,westus,2.31,1.46,3.37
+2025-01,acc-4997,sub-2,Networking,rg-1,res-60,eastus,19.68,1.58,31.09
+2025-01,acc-8611,sub-1,Kubernetes,rg-4,res-61,eastus,24.61,0.97,23.87
+2025-01,acc-6198,sub-4,Kubernetes,rg-9,res-62,northeurope,15.83,1.68,26.59
+2025-01,acc-8777,sub-4,SQL Database,rg-4,res-63,centralus,88.23,1.56,137.64
+2025-01,acc-5499,sub-4,Virtual Machines,rg-5,res-64,westus,22.06,0.62,13.68
+2025-01,acc-3267,sub-2,Storage,rg-7,res-65,westus,16.49,1.44,23.75
+2025-01,acc-6421,sub-5,App Service,rg-7,res-66,eastus,39.12,0.49,19.17
+2025-01,acc-1320,sub-5,App Service,rg-8,res-67,eastus,7.59,1.89,14.35
+2025-01,acc-9818,sub-5,Kubernetes,rg-4,res-68,northeurope,81.02,0.52,42.13
+2025-01,acc-7371,sub-3,Networking,rg-7,res-69,westus,3.87,1.7,6.58
+2025-01,acc-1441,sub-4,Kubernetes,rg-10,res-70,eastus,216.71,0.26,56.34
+2025-01,acc-3977,sub-1,SQL Database,rg-7,res-71,centralus,73.97,0.5,36.98
+2025-01,acc-5558,sub-4,SQL Database,rg-2,res-72,northeurope,11.08,0.14,1.55
+2025-01,acc-4673,sub-1,Networking,rg-1,res-73,eastus,0.28,1.9,0.53
+2025-01,acc-3496,sub-2,Storage,rg-8,res-74,eastus,84.49,1.17,98.85
+2025-01,acc-7043,sub-2,Kubernetes,rg-10,res-75,eastus,61.35,1.58,96.93
+2025-01,acc-1420,sub-3,Kubernetes,rg-7,res-76,northeurope,65.28,1.89,123.38
+2025-01,acc-4978,sub-1,Networking,rg-5,res-77,southeastasia,73.76,1.63,120.23
+2025-01,acc-9728,sub-4,Networking,rg-6,res-78,eastus,3.85,1.06,4.08
+2025-01,acc-9031,sub-1,App Service,rg-6,res-79,northeurope,22.19,1.44,31.95
+2025-01,acc-5425,sub-5,Kubernetes,rg-8,res-80,northeurope,6.16,0.93,5.73
+2025-01,acc-6280,sub-2,Virtual Machines,rg-5,res-81,northeurope,99.43,0.56,55.68
+2025-01,acc-7209,sub-3,Virtual Machines,rg-8,res-82,centralus,48.82,0.45,21.97
+2025-01,acc-6576,sub-3,Kubernetes,rg-5,res-83,southeastasia,20.09,0.12,2.41
+2025-01,acc-7658,sub-4,Kubernetes,rg-4,res-84,northeurope,3.28,1.33,4.36
+2025-01,acc-2524,sub-3,Storage,rg-7,res-85,westus,18.62,0.68,12.66
+2025-01,acc-9698,sub-3,App Service,rg-9,res-86,centralus,19.67,0.77,15.15
+2025-01,acc-5118,sub-2,Virtual Machines,rg-4,res-87,centralus,65.39,0.33,21.58
+2025-01,acc-4138,sub-2,Networking,rg-8,res-88,centralus,50.74,1.48,75.1
+2025-01,acc-2647,sub-2,SQL Database,rg-4,res-89,centralus,109.11,0.44,48.01
+2025-01,acc-3073,sub-3,Virtual Machines,rg-1,res-90,southeastasia,31.95,0.66,21.09
+2025-01,acc-2680,sub-1,Kubernetes,rg-5,res-91,northeurope,6.37,1.01,6.43
+2025-01,acc-5136,sub-4,Virtual Machines,rg-2,res-92,northeurope,62.46,1.03,64.33
+2025-01,acc-3485,sub-2,Kubernetes,rg-5,res-93,eastus,71.52,1.99,142.32
+2025-01,acc-4697,sub-5,App Service,rg-8,res-94,northeurope,41.19,0.66,27.19
+2025-01,acc-1986,sub-5,Networking,rg-2,res-95,westus,73.69,1.29,95.06
+2025-01,acc-3573,sub-2,Storage,rg-9,res-96,eastus,34.04,0.4,13.62
+2025-01,acc-8699,sub-3,Virtual Machines,rg-4,res-97,centralus,36.98,1.44,53.25
+2025-01,acc-4824,sub-3,Networking,rg-10,res-98,westus,27.89,0.91,25.38
+2025-01,acc-5352,sub-2,Virtual Machines,rg-1,res-99,westus,1.29,1.61,2.08
+2025-01,acc-5728,sub-4,Virtual Machines,rg-8,res-100,centralus,5.71,1.43,8.17
+2025-01,acc-9090,sub-4,Virtual Machines,rg-10,res-101,eastus,1.6,1.79,2.86
+2025-01,acc-5102,sub-1,Virtual Machines,rg-4,res-102,southeastasia,50.59,1.22,61.72
+2025-01,acc-1659,sub-2,App Service,rg-9,res-103,northeurope,18.87,1.84,34.72
+2025-01,acc-9056,sub-1,App Service,rg-6,res-104,northeurope,35.52,0.73,25.93
+2025-01,acc-6403,sub-4,Networking,rg-8,res-105,centralus,119.06,1.36,161.92
+2025-01,acc-8451,sub-1,SQL Database,rg-5,res-106,centralus,14.34,0.32,4.59
+2025-01,acc-9889,sub-4,App Service,rg-1,res-107,westus,26.41,1.09,28.79
+2025-01,acc-1845,sub-2,SQL Database,rg-9,res-108,westus,70.44,1.86,131.02
+2025-01,acc-2989,sub-1,Networking,rg-10,res-109,westus,12.99,1.45,18.84
+2025-01,acc-7684,sub-1,Storage,rg-2,res-110,northeurope,4.01,1.9,7.62
+2025-01,acc-5781,sub-5,Networking,rg-5,res-111,northeurope,17.11,1.69,28.92
+2025-01,acc-3369,sub-4,Storage,rg-10,res-112,southeastasia,8.79,1.52,13.36
+2025-01,acc-7798,sub-3,Kubernetes,rg-5,res-113,eastus,132.75,0.64,84.96
+2025-01,acc-9022,sub-2,App Service,rg-9,res-114,northeurope,82.54,0.76,62.73
+2025-01,acc-8460,sub-3,Storage,rg-4,res-115,southeastasia,50.17,0.83,41.64
+2025-01,acc-8749,sub-4,App Service,rg-3,res-116,northeurope,102.58,1.93,197.98
+2025-01,acc-6439,sub-1,App Service,rg-2,res-117,southeastasia,81.4,1.83,148.96
+2025-01,acc-7717,sub-2,Virtual Machines,rg-8,res-118,centralus,10.32,0.74,7.64
+2025-01,acc-6383,sub-5,App Service,rg-6,res-119,northeurope,111.54,1.76,196.31
+2025-01,acc-4846,sub-3,Storage,rg-2,res-120,northeurope,38.75,1.96,75.95
+2025-01,acc-8269,sub-2,Networking,rg-5,res-121,eastus,82.37,0.19,15.65
+2025-01,acc-7141,sub-4,Storage,rg-4,res-122,southeastasia,113.21,0.88,99.62
+2025-01,acc-3868,sub-1,Kubernetes,rg-7,res-123,southeastasia,19.14,1.4,26.8
+2025-01,acc-4804,sub-4,Networking,rg-5,res-124,northeurope,5.83,0.59,3.44
+2025-01,acc-9955,sub-2,Virtual Machines,rg-8,res-125,centralus,12.93,1.98,25.6
+2025-01,acc-5097,sub-4,SQL Database,rg-4,res-126,northeurope,27.85,1.72,47.9
+2025-01,acc-6881,sub-5,SQL Database,rg-5,res-127,eastus,85.19,1.96,166.97
+2025-01,acc-1132,sub-5,Networking,rg-1,res-128,southeastasia,98.57,1.52,149.83
+2025-01,acc-6772,sub-2,Networking,rg-4,res-129,southeastasia,0.35,0.58,0.2
+2025-01,acc-2591,sub-1,SQL Database,rg-8,res-130,eastus,35.74,1.2,42.89
+2025-01,acc-5835,sub-3,Networking,rg-7,res-131,westus,27.01,0.48,12.96
+2025-01,acc-9221,sub-3,Storage,rg-5,res-132,northeurope,12.56,1.94,24.37
+2025-01,acc-2886,sub-4,Virtual Machines,rg-3,res-133,westus,6.38,1.73,11.04
+2025-01,acc-6992,sub-1,App Service,rg-1,res-134,centralus,20.6,1.12,23.07
+2025-01,acc-7242,sub-3,Virtual Machines,rg-4,res-135,northeurope,143.16,0.15,21.47
+2025-01,acc-4626,sub-1,Networking,rg-8,res-136,centralus,19.52,1.33,25.96
+2025-01,acc-1609,sub-3,App Service,rg-2,res-137,eastus,36.57,0.55,20.11
+2025-01,acc-8432,sub-3,Networking,rg-9,res-138,northeurope,60.7,1.22,74.05
+2025-01,acc-2622,sub-4,Kubernetes,rg-7,res-139,centralus,22.6,0.16,3.62
+2025-01,acc-8285,sub-2,SQL Database,rg-2,res-140,centralus,178.39,1.13,201.58
+2025-01,acc-7523,sub-3,Storage,rg-2,res-141,northeurope,164.1,0.27,44.31
+2025-01,acc-1349,sub-1,SQL Database,rg-4,res-142,westus,14.5,1.6,23.2
+2025-01,acc-4394,sub-5,Storage,rg-4,res-143,centralus,34.38,1.57,53.98
+2025-01,acc-3370,sub-2,Kubernetes,rg-5,res-144,westus,17.9,0.31,5.55
+2025-01,acc-6869,sub-2,Kubernetes,rg-6,res-145,eastus,16.76,0.43,7.21
+2025-01,acc-9619,sub-1,Networking,rg-2,res-146,northeurope,1.88,0.95,1.79
+2025-01,acc-2786,sub-4,Kubernetes,rg-4,res-147,southeastasia,47.02,0.18,8.46
+2025-01,acc-8504,sub-1,Virtual Machines,rg-8,res-148,northeurope,34.93,0.91,31.79
+2025-01,acc-2204,sub-1,SQL Database,rg-10,res-149,westus,2.64,0.22,0.58
+2025-01,acc-9984,sub-3,App Service,rg-10,res-150,southeastasia,16.33,0.66,10.78
+2025-01,acc-2624,sub-1,Networking,rg-9,res-151,westus,119.44,0.92,109.88
+2025-01,acc-8430,sub-4,App Service,rg-2,res-152,centralus,13.69,0.91,12.46
+2025-01,acc-3500,sub-4,Virtual Machines,rg-2,res-153,eastus,7.83,0.28,2.19
+2025-01,acc-3131,sub-5,Virtual Machines,rg-10,res-154,southeastasia,33.61,1.17,39.32
+2025-01,acc-6793,sub-4,Networking,rg-1,res-155,centralus,212.2,1.24,263.13
+2025-01,acc-9313,sub-2,Storage,rg-8,res-156,westus,13.86,1.71,23.7
+2025-01,acc-2882,sub-3,Kubernetes,rg-4,res-157,northeurope,55.76,1.71,95.35
+2025-01,acc-1430,sub-5,Networking,rg-5,res-158,eastus,71.69,0.44,31.54
+2025-01,acc-6751,sub-1,Storage,rg-3,res-159,southeastasia,13.57,1.35,18.32
+2025-01,acc-2503,sub-5,Storage,rg-7,res-160,northeurope,65.14,0.96,62.53
+2025-01,acc-6314,sub-5,Kubernetes,rg-2,res-161,eastus,22.93,0.4,9.17
+2025-01,acc-5458,sub-4,Networking,rg-7,res-162,northeurope,50.03,1.25,62.54
+2025-01,acc-9394,sub-1,SQL Database,rg-7,res-163,eastus,50.19,0.64,32.12
+2025-01,acc-9633,sub-3,Virtual Machines,rg-4,res-164,northeurope,38.37,1.97,75.59
+2025-01,acc-5938,sub-2,Storage,rg-5,res-165,centralus,4.73,0.72,3.41
+2025-01,acc-3878,sub-2,App Service,rg-9,res-166,westus,90.18,1.05,94.69
+2025-01,acc-7505,sub-1,App Service,rg-1,res-167,northeurope,19.34,1.85,35.78
+2025-01,acc-7626,sub-4,SQL Database,rg-2,res-168,northeurope,10.32,0.14,1.44
+2025-01,acc-8538,sub-3,Virtual Machines,rg-7,res-169,eastus,2.08,0.56,1.16
+2025-01,acc-2288,sub-4,SQL Database,rg-6,res-170,westus,44.69,0.73,32.62
+2025-01,acc-2868,sub-5,Kubernetes,rg-4,res-171,centralus,56.59,0.77,43.57
+2025-01,acc-2684,sub-2,SQL Database,rg-4,res-172,westus,0.84,1.24,1.04
+2025-01,acc-9095,sub-4,Kubernetes,rg-10,res-173,northeurope,35.88,1.39,49.87
+2025-01,acc-6295,sub-3,Storage,rg-8,res-174,eastus,12.84,0.99,12.71
+2025-01,acc-1920,sub-3,Kubernetes,rg-2,res-175,centralus,51.81,0.98,50.77
+2025-01,acc-5703,sub-1,Networking,rg-2,res-176,southeastasia,9.58,1.23,11.78
+2025-01,acc-1672,sub-4,Kubernetes,rg-4,res-177,centralus,58.71,1.25,73.39
+2025-01,acc-8381,sub-1,SQL Database,rg-2,res-178,southeastasia,24.45,1.33,32.52
+2025-01,acc-8199,sub-5,Kubernetes,rg-10,res-179,westus,138.02,0.79,109.04
+2025-01,acc-6543,sub-5,Virtual Machines,rg-6,res-180,eastus,7.4,0.73,5.4
+2025-01,acc-5655,sub-3,Networking,rg-10,res-181,westus,20.86,0.73,15.23
+2025-01,acc-6731,sub-3,Networking,rg-7,res-182,westus,6.02,1.23,7.4
+2025-01,acc-7171,sub-3,Storage,rg-9,res-183,eastus,129.31,1.33,171.98
+2025-01,acc-1298,sub-3,SQL Database,rg-3,res-184,westus,104.92,0.75,78.69
+2025-01,acc-3253,sub-2,Virtual Machines,rg-5,res-185,eastus,14.92,1.06,15.82
+2025-01,acc-1618,sub-3,Kubernetes,rg-3,res-186,southeastasia,53.94,0.82,44.23
+2025-01,acc-3712,sub-4,Virtual Machines,rg-7,res-187,centralus,84.97,1.39,118.11
+2025-01,acc-5668,sub-4,Storage,rg-9,res-188,westus,40.51,0.69,27.95
+2025-01,acc-8218,sub-4,SQL Database,rg-7,res-189,southeastasia,37.71,1.1,41.48
+2025-01,acc-3267,sub-3,Virtual Machines,rg-8,res-190,centralus,13.84,1.15,15.92
+2025-01,acc-3042,sub-3,Virtual Machines,rg-3,res-191,centralus,4.89,0.95,4.65
+2025-01,acc-2502,sub-2,App Service,rg-6,res-192,eastus,113.76,0.89,101.25
+2025-01,acc-4862,sub-4,Virtual Machines,rg-6,res-193,westus,115.34,0.15,17.3
+2025-01,acc-3392,sub-2,Virtual Machines,rg-5,res-194,northeurope,50.13,1.42,71.18
+2025-01,acc-8349,sub-5,Virtual Machines,rg-2,res-195,eastus,20.7,0.59,12.21
+2025-01,acc-9647,sub-4,Virtual Machines,rg-5,res-196,westus,21.48,0.67,14.39
+2025-01,acc-8489,sub-1,Virtual Machines,rg-8,res-197,southeastasia,64.72,1.12,72.49
+2025-01,acc-4963,sub-2,SQL Database,rg-7,res-198,eastus,113.7,1.27,144.4
+2025-01,acc-4068,sub-1,Kubernetes,rg-6,res-199,eastus,109.06,1.91,208.3
+2025-01,acc-1333,sub-4,App Service,rg-1,res-200,northeurope,75.68,1.96,148.33
+2025-02,acc-6850,sub-1,SQL Database,rg-4,res-201,eastus,51.37,1.57,80.65
+2025-02,acc-1726,sub-3,Kubernetes,rg-6,res-202,westus,4.39,1.68,7.38
+2025-02,acc-3986,sub-2,Virtual Machines,rg-8,res-203,eastus,8.81,0.66,5.81
+2025-02,acc-6170,sub-3,Kubernetes,rg-7,res-204,southeastasia,114.41,1.0,114.41
+2025-02,acc-5687,sub-3,Virtual Machines,rg-6,res-205,centralus,46.62,0.34,15.85
+2025-02,acc-8204,sub-4,SQL Database,rg-3,res-206,northeurope,0.46,1.41,0.65
+2025-02,acc-2353,sub-4,Virtual Machines,rg-7,res-207,southeastasia,5.35,1.99,10.65
+2025-02,acc-6262,sub-1,Virtual Machines,rg-6,res-208,centralus,54.46,0.68,37.03
+2025-02,acc-3730,sub-4,SQL Database,rg-8,res-209,eastus,0.25,1.48,0.37
+2025-02,acc-5498,sub-1,Virtual Machines,rg-7,res-210,centralus,8.77,1.07,9.38
+2025-02,acc-1510,sub-2,Kubernetes,rg-8,res-211,eastus,39.78,0.34,13.53
+2025-02,acc-6933,sub-4,Kubernetes,rg-1,res-212,southeastasia,58.87,0.39,22.96
+2025-02,acc-8273,sub-1,Kubernetes,rg-3,res-213,southeastasia,52.77,0.8,42.22
+2025-02,acc-5089,sub-1,Virtual Machines,rg-3,res-214,northeurope,12.7,1.08,13.72
+2025-02,acc-5264,sub-4,Storage,rg-10,res-215,centralus,62.27,1.42,88.42
+2025-02,acc-3223,sub-1,App Service,rg-3,res-216,northeurope,13.54,1.99,26.94
+2025-02,acc-2063,sub-5,Kubernetes,rg-5,res-217,centralus,19.68,1.72,33.85
+2025-02,acc-6922,sub-5,Storage,rg-2,res-218,westus,68.62,1.6,109.79
+2025-02,acc-6912,sub-5,Kubernetes,rg-6,res-219,northeurope,52.44,1.63,85.48
+2025-02,acc-2412,sub-1,SQL Database,rg-7,res-220,northeurope,94.6,1.1,104.06
+2025-02,acc-3053,sub-3,Networking,rg-2,res-221,northeurope,53.59,0.99,53.05
+2025-02,acc-3981,sub-2,App Service,rg-9,res-222,eastus,42.0,1.68,70.56
+2025-02,acc-3697,sub-2,SQL Database,rg-4,res-223,centralus,4.92,1.9,9.35
+2025-02,acc-5105,sub-2,Networking,rg-9,res-224,centralus,22.92,0.34,7.79
+2025-02,acc-2530,sub-5,Networking,rg-3,res-225,southeastasia,15.41,1.89,29.12
+2025-02,acc-6531,sub-5,Virtual Machines,rg-1,res-226,eastus,13.99,0.19,2.66
+2025-02,acc-4453,sub-5,App Service,rg-10,res-227,eastus,180.62,1.05,189.65
+2025-02,acc-5949,sub-4,Storage,rg-7,res-228,centralus,24.97,0.96,23.97
+2025-02,acc-8202,sub-4,App Service,rg-8,res-229,westus,111.3,0.75,83.47
+2025-02,acc-6658,sub-4,Storage,rg-6,res-230,southeastasia,49.87,1.17,58.35
+2025-02,acc-3007,sub-3,App Service,rg-4,res-231,westus,79.19,0.28,22.17
+2025-02,acc-7850,sub-2,Storage,rg-6,res-232,southeastasia,34.92,1.47,51.33
+2025-02,acc-9433,sub-4,App Service,rg-5,res-233,northeurope,43.01,0.14,6.02
+2025-02,acc-4944,sub-2,Kubernetes,rg-6,res-234,eastus,33.91,0.2,6.78
+2025-02,acc-5681,sub-5,Virtual Machines,rg-2,res-235,northeurope,10.86,0.35,3.8
+2025-02,acc-7606,sub-3,Virtual Machines,rg-7,res-236,eastus,64.09,1.18,75.63
+2025-02,acc-5728,sub-1,App Service,rg-9,res-237,northeurope,16.48,1.55,25.54
+2025-02,acc-2946,sub-2,Virtual Machines,rg-7,res-238,centralus,1.23,1.61,1.98
+2025-02,acc-3363,sub-2,Kubernetes,rg-9,res-239,northeurope,51.85,1.05,54.44
+2025-02,acc-6456,sub-4,Kubernetes,rg-8,res-240,westus,9.75,1.25,12.19
+2025-02,acc-6218,sub-2,App Service,rg-10,res-241,centralus,141.05,1.23,173.49
+2025-02,acc-9025,sub-5,SQL Database,rg-8,res-242,eastus,153.88,0.8,123.1
+2025-02,acc-6040,sub-1,Kubernetes,rg-8,res-243,centralus,123.18,1.94,238.97
+2025-02,acc-1841,sub-5,App Service,rg-3,res-244,southeastasia,23.11,1.3,30.04
+2025-02,acc-4968,sub-1,Kubernetes,rg-2,res-245,westus,0.78,0.14,0.11
+2025-02,acc-7765,sub-2,App Service,rg-9,res-246,southeastasia,131.78,1.85,243.79
+2025-02,acc-3262,sub-5,Storage,rg-9,res-247,centralus,27.95,2.0,55.9
+2025-02,acc-6140,sub-2,App Service,rg-9,res-248,centralus,170.04,1.14,193.85
+2025-02,acc-8932,sub-2,Storage,rg-5,res-249,southeastasia,165.69,0.67,111.01
+2025-02,acc-9011,sub-3,App Service,rg-6,res-250,southeastasia,95.87,1.87,179.28
+2025-02,acc-2996,sub-5,Networking,rg-9,res-251,northeurope,17.44,1.8,31.39
+2025-02,acc-5758,sub-1,SQL Database,rg-2,res-252,centralus,24.31,1.86,45.22
+2025-02,acc-4505,sub-2,Kubernetes,rg-5,res-253,southeastasia,95.24,1.42,135.24
+2025-02,acc-4920,sub-2,Virtual Machines,rg-9,res-254,westus,19.06,1.31,24.97
+2025-02,acc-6411,sub-4,Virtual Machines,rg-3,res-255,eastus,9.29,1.93,17.93
+2025-02,acc-8822,sub-2,SQL Database,rg-6,res-256,centralus,40.69,1.33,54.12
+2025-02,acc-4804,sub-5,Networking,rg-1,res-257,westus,137.56,0.89,122.43
+2025-02,acc-9116,sub-2,Networking,rg-5,res-258,eastus,59.54,0.12,7.14
+2025-02,acc-6489,sub-3,App Service,rg-9,res-259,southeastasia,42.21,1.04,43.9
+2025-02,acc-5470,sub-2,Virtual Machines,rg-6,res-260,westus,5.11,1.49,7.61
+2025-02,acc-1230,sub-3,SQL Database,rg-10,res-261,westus,47.73,0.43,20.52
+2025-02,acc-9442,sub-3,Virtual Machines,rg-7,res-262,eastus,230.53,0.45,103.74
+2025-02,acc-5064,sub-1,SQL Database,rg-7,res-263,westus,7.55,0.95,7.17
+2025-02,acc-1187,sub-3,Networking,rg-6,res-264,westus,36.52,0.22,8.03
+2025-02,acc-3616,sub-4,Networking,rg-9,res-265,centralus,104.93,1.41,147.95
+2025-02,acc-4618,sub-2,Storage,rg-8,res-266,westus,67.5,0.96,64.8
+2025-02,acc-9998,sub-4,Kubernetes,rg-4,res-267,westus,59.7,1.39,82.98
+2025-02,acc-8319,sub-5,Networking,rg-6,res-268,eastus,60.61,1.84,111.52
+2025-02,acc-9281,sub-2,Kubernetes,rg-9,res-269,westus,22.27,0.41,9.13
+2025-02,acc-4365,sub-5,App Service,rg-2,res-270,southeastasia,17.38,0.95,16.51
+2025-02,acc-9409,sub-4,App Service,rg-10,res-271,eastus,82.87,1.16,96.13
+2025-02,acc-7487,sub-3,Virtual Machines,rg-4,res-272,southeastasia,83.07,0.24,19.94
+2025-02,acc-9866,sub-1,Virtual Machines,rg-8,res-273,eastus,100.9,0.65,65.59
+2025-02,acc-7135,sub-4,App Service,rg-7,res-274,northeurope,122.23,0.25,30.56
+2025-02,acc-6697,sub-1,Storage,rg-9,res-275,northeurope,35.8,1.1,39.38
+2025-02,acc-1372,sub-3,App Service,rg-9,res-276,northeurope,34.81,1.11,38.64
+2025-02,acc-6671,sub-2,SQL Database,rg-4,res-277,eastus,80.05,0.16,12.81
+2025-02,acc-1256,sub-2,Storage,rg-2,res-278,eastus,52.49,1.23,64.56
+2025-02,acc-5009,sub-1,App Service,rg-8,res-279,westus,60.53,1.13,68.4
+2025-02,acc-5739,sub-2,Networking,rg-10,res-280,centralus,79.43,1.2,95.32
+2025-02,acc-5944,sub-2,Networking,rg-9,res-281,westus,110.37,0.89,98.23
+2025-02,acc-3869,sub-4,Kubernetes,rg-8,res-282,eastus,20.62,1.95,40.21
+2025-02,acc-9592,sub-3,Networking,rg-7,res-283,northeurope,23.55,0.38,8.95
+2025-02,acc-8758,sub-2,Storage,rg-5,res-284,westus,4.93,1.63,8.04
+2025-02,acc-7824,sub-5,Kubernetes,rg-3,res-285,northeurope,43.17,0.56,24.18
+2025-02,acc-8369,sub-3,Virtual Machines,rg-9,res-286,westus,1.83,0.2,0.37
+2025-02,acc-1647,sub-1,Storage,rg-10,res-287,southeastasia,31.33,0.51,15.98
+2025-02,acc-1251,sub-2,Storage,rg-2,res-288,northeurope,39.11,1.84,71.96
+2025-02,acc-7498,sub-2,Kubernetes,rg-6,res-289,centralus,16.88,0.82,13.84
+2025-02,acc-6053,sub-3,SQL Database,rg-9,res-290,northeurope,44.68,0.99,44.23
+2025-02,acc-4328,sub-3,SQL Database,rg-7,res-291,eastus,1.55,1.17,1.81
+2025-02,acc-1265,sub-3,Kubernetes,rg-10,res-292,southeastasia,1.9,1.47,2.79
+2025-02,acc-6404,sub-2,App Service,rg-10,res-293,westus,86.47,1.05,90.79
+2025-02,acc-5216,sub-4,Networking,rg-8,res-294,northeurope,22.33,0.42,9.38
+2025-02,acc-9954,sub-4,Storage,rg-9,res-295,eastus,6.79,1.1,7.47
+2025-02,acc-1104,sub-4,Storage,rg-4,res-296,eastus,36.93,1.44,53.18
+2025-02,acc-8471,sub-3,Virtual Machines,rg-10,res-297,southeastasia,73.48,1.83,134.47
+2025-02,acc-1108,sub-5,Kubernetes,rg-7,res-298,eastus,12.16,0.13,1.58
+2025-02,acc-5697,sub-1,Kubernetes,rg-7,res-299,westus,48.76,0.3,14.63
+2025-02,acc-4948,sub-2,Kubernetes,rg-9,res-300,centralus,4.46,1.65,7.36
+2025-02,acc-7112,sub-4,App Service,rg-10,res-301,westus,2.65,1.98,5.25
+2025-02,acc-1519,sub-1,App Service,rg-7,res-302,northeurope,37.9,1.15,43.58
+2025-02,acc-3807,sub-1,App Service,rg-7,res-303,centralus,38.9,1.18,45.9
+2025-02,acc-4764,sub-2,Networking,rg-10,res-304,northeurope,50.73,0.62,31.45
+2025-02,acc-9897,sub-5,Networking,rg-1,res-305,westus,64.75,1.86,120.44
+2025-02,acc-3362,sub-4,Virtual Machines,rg-5,res-306,westus,186.18,1.17,217.83
+2025-02,acc-6435,sub-4,Networking,rg-3,res-307,eastus,36.31,1.05,38.13
+2025-02,acc-8161,sub-2,Virtual Machines,rg-6,res-308,southeastasia,19.5,1.56,30.42
+2025-02,acc-1485,sub-3,App Service,rg-8,res-309,westus,79.28,0.78,61.84
+2025-02,acc-7227,sub-1,Kubernetes,rg-5,res-310,westus,15.79,1.45,22.9
+2025-02,acc-7225,sub-2,Networking,rg-7,res-311,centralus,28.9,0.79,22.83
+2025-02,acc-8286,sub-3,SQL Database,rg-2,res-312,westus,4.09,0.27,1.1
+2025-02,acc-9395,sub-4,Virtual Machines,rg-1,res-313,eastus,1.28,0.77,0.99
+2025-02,acc-6315,sub-4,Virtual Machines,rg-5,res-314,northeurope,164.37,0.84,138.07
+2025-02,acc-4977,sub-5,Kubernetes,rg-3,res-315,northeurope,90.39,0.42,37.96
+2025-02,acc-9079,sub-2,Virtual Machines,rg-3,res-316,northeurope,59.53,0.62,36.91
+2025-02,acc-6916,sub-3,Storage,rg-8,res-317,southeastasia,26.29,1.27,33.39
+2025-02,acc-5991,sub-1,App Service,rg-6,res-318,southeastasia,9.52,0.82,7.81
+2025-02,acc-8055,sub-5,Storage,rg-5,res-319,centralus,8.51,1.25,10.64
+2025-02,acc-6147,sub-2,App Service,rg-6,res-320,centralus,14.4,1.5,21.6
+2025-02,acc-4971,sub-3,App Service,rg-5,res-321,northeurope,39.84,0.79,31.47
+2025-02,acc-9939,sub-2,Networking,rg-9,res-322,eastus,62.69,1.91,119.74
+2025-02,acc-8183,sub-3,Networking,rg-2,res-323,northeurope,53.97,1.38,74.48
+2025-02,acc-4965,sub-3,Networking,rg-3,res-324,northeurope,16.42,1.6,26.27
+2025-02,acc-8851,sub-5,App Service,rg-9,res-325,southeastasia,154.91,1.85,286.58
+2025-02,acc-1602,sub-3,Networking,rg-9,res-326,southeastasia,66.95,1.31,87.7
+2025-02,acc-6816,sub-2,Networking,rg-10,res-327,eastus,40.41,1.17,47.28
+2025-02,acc-6432,sub-4,Virtual Machines,rg-1,res-328,eastus,47.3,0.59,27.91
+2025-02,acc-4621,sub-4,SQL Database,rg-7,res-329,northeurope,27.2,1.57,42.7
+2025-02,acc-3469,sub-3,Virtual Machines,rg-8,res-330,eastus,14.23,0.66,9.39
+2025-02,acc-6707,sub-3,SQL Database,rg-8,res-331,westus,22.0,1.09,23.98
+2025-02,acc-8178,sub-4,SQL Database,rg-2,res-332,centralus,70.91,0.18,12.76
+2025-02,acc-6620,sub-1,Networking,rg-3,res-333,westus,0.72,1.08,0.78
+2025-02,acc-7985,sub-4,Storage,rg-7,res-334,westus,6.17,0.45,2.78
+2025-02,acc-1478,sub-5,Storage,rg-8,res-335,southeastasia,2.35,0.92,2.16
+2025-02,acc-4371,sub-3,Networking,rg-2,res-336,southeastasia,2.08,0.29,0.6
+2025-02,acc-6340,sub-2,App Service,rg-2,res-337,centralus,96.71,1.37,132.49
+2025-02,acc-7367,sub-5,App Service,rg-10,res-338,eastus,60.81,0.76,46.22
+2025-02,acc-5873,sub-5,Kubernetes,rg-2,res-339,westus,32.14,0.7,22.5
+2025-02,acc-3999,sub-3,Networking,rg-3,res-340,southeastasia,5.15,0.84,4.33
+2025-02,acc-7286,sub-4,Storage,rg-8,res-341,southeastasia,33.83,1.42,48.04
+2025-02,acc-3733,sub-4,SQL Database,rg-3,res-342,westus,32.07,0.7,22.45
+2025-02,acc-6882,sub-1,App Service,rg-3,res-343,westus,9.51,1.65,15.69
+2025-02,acc-7703,sub-4,App Service,rg-8,res-344,northeurope,28.44,0.42,11.94
+2025-02,acc-5785,sub-1,SQL Database,rg-4,res-345,southeastasia,25.42,0.65,16.52
+2025-02,acc-9369,sub-1,Kubernetes,rg-2,res-346,centralus,47.84,1.57,75.11
+2025-02,acc-8231,sub-5,Storage,rg-7,res-347,eastus,50.41,1.5,75.61
+2025-02,acc-1528,sub-4,SQL Database,rg-6,res-348,eastus,2.32,0.93,2.16
+2025-02,acc-6744,sub-5,Networking,rg-7,res-349,westus,23.47,1.27,29.81
+2025-02,acc-6747,sub-5,SQL Database,rg-10,res-350,southeastasia,49.16,0.42,20.65
+2025-02,acc-5380,sub-5,Networking,rg-2,res-351,westus,34.97,1.93,67.49
+2025-02,acc-3078,sub-2,Storage,rg-3,res-352,centralus,97.07,1.67,162.11
+2025-02,acc-3329,sub-5,Networking,rg-5,res-353,northeurope,53.75,0.81,43.54
+2025-02,acc-7600,sub-5,Networking,rg-5,res-354,centralus,8.89,0.96,8.53
+2025-02,acc-1040,sub-1,Networking,rg-8,res-355,centralus,3.66,1.72,6.3
+2025-02,acc-8039,sub-2,App Service,rg-5,res-356,centralus,51.42,1.67,85.87
+2025-02,acc-3139,sub-5,App Service,rg-6,res-357,eastus,1.34,0.19,0.25
+2025-02,acc-3035,sub-2,App Service,rg-8,res-358,eastus,44.07,1.98,87.26
+2025-02,acc-5945,sub-2,SQL Database,rg-2,res-359,centralus,140.86,0.58,81.7
+2025-02,acc-1848,sub-4,Networking,rg-5,res-360,westus,42.84,0.92,39.41
+2025-02,acc-1017,sub-2,App Service,rg-2,res-361,westus,24.57,1.23,30.22
+2025-02,acc-1152,sub-1,Networking,rg-6,res-362,eastus,51.54,1.98,102.05
+2025-02,acc-8826,sub-1,Storage,rg-7,res-363,eastus,30.65,1.49,45.67
+2025-02,acc-7022,sub-3,Storage,rg-7,res-364,westus,39.44,1.32,52.06
+2025-02,acc-9691,sub-5,Virtual Machines,rg-10,res-365,westus,141.91,0.94,133.4
+2025-02,acc-7745,sub-5,Networking,rg-8,res-366,westus,24.4,0.26,6.34
+2025-02,acc-7291,sub-3,App Service,rg-6,res-367,westus,162.45,0.57,92.6
+2025-02,acc-5668,sub-1,Networking,rg-5,res-368,westus,117.88,1.08,127.31
+2025-02,acc-5842,sub-1,Storage,rg-8,res-369,northeurope,10.89,0.31,3.38
+2025-02,acc-2163,sub-5,Virtual Machines,rg-6,res-370,centralus,3.59,0.35,1.26
+2025-02,acc-9951,sub-2,App Service,rg-2,res-371,eastus,5.31,1.22,6.48
+2025-02,acc-1652,sub-1,App Service,rg-9,res-372,centralus,0.92,1.29,1.19
+2025-02,acc-7590,sub-1,Networking,rg-9,res-373,southeastasia,4.96,1.27,6.3
+2025-02,acc-2294,sub-5,Storage,rg-3,res-374,southeastasia,57.44,0.72,41.36
+2025-02,acc-6081,sub-4,Networking,rg-4,res-375,eastus,3.69,0.56,2.07
+2025-02,acc-1901,sub-3,Networking,rg-3,res-376,eastus,19.21,0.12,2.31
+2025-02,acc-3684,sub-4,SQL Database,rg-9,res-377,southeastasia,93.18,1.59,148.16
+2025-02,acc-7092,sub-2,Networking,rg-5,res-378,eastus,1.18,1.57,1.85
+2025-02,acc-5456,sub-5,Virtual Machines,rg-5,res-379,southeastasia,84.23,1.29,108.66
+2025-02,acc-6900,sub-1,App Service,rg-10,res-380,westus,16.55,0.8,13.24
+2025-02,acc-2889,sub-2,Networking,rg-9,res-381,eastus,6.29,0.18,1.13
+2025-02,acc-8729,sub-3,App Service,rg-3,res-382,westus,59.66,1.87,111.56
+2025-02,acc-4678,sub-3,Storage,rg-7,res-383,centralus,49.57,0.62,30.73
+2025-02,acc-2956,sub-5,Networking,rg-1,res-384,westus,104.97,0.52,54.58
+2025-02,acc-2129,sub-4,SQL Database,rg-5,res-385,centralus,66.41,0.26,17.27
+2025-02,acc-4287,sub-3,Kubernetes,rg-5,res-386,southeastasia,81.35,0.56,45.56
+2025-02,acc-4201,sub-5,Storage,rg-3,res-387,eastus,16.57,1.87,30.99
+2025-02,acc-6675,sub-1,SQL Database,rg-1,res-388,northeurope,9.77,1.71,16.71
+2025-02,acc-4361,sub-5,Storage,rg-7,res-389,northeurope,69.44,1.93,134.02
+2025-02,acc-2524,sub-1,Storage,rg-9,res-390,northeurope,82.21,1.43,117.56
+2025-02,acc-2565,sub-5,Storage,rg-7,res-391,eastus,232.85,1.22,284.08
+2025-02,acc-4879,sub-3,SQL Database,rg-6,res-392,northeurope,26.6,1.43,38.04
+2025-02,acc-8417,sub-3,Storage,rg-2,res-393,westus,23.26,0.36,8.37
+2025-02,acc-2731,sub-2,App Service,rg-8,res-394,centralus,74.9,0.87,65.16
+2025-02,acc-8404,sub-3,App Service,rg-5,res-395,eastus,20.84,0.27,5.63
+2025-02,acc-1660,sub-2,SQL Database,rg-3,res-396,eastus,133.51,1.45,193.59
+2025-02,acc-1802,sub-3,SQL Database,rg-3,res-397,eastus,97.74,1.91,186.68
+2025-02,acc-5093,sub-1,App Service,rg-2,res-398,westus,28.02,0.33,9.25
+2025-02,acc-4246,sub-4,SQL Database,rg-2,res-399,southeastasia,69.49,1.21,84.08
+2025-02,acc-4239,sub-4,Storage,rg-2,res-400,centralus,70.23,0.33,23.18
+2025-03,acc-8096,sub-4,App Service,rg-1,res-401,northeurope,5.44,1.4,7.62
+2025-03,acc-4066,sub-3,SQL Database,rg-8,res-402,westus,116.42,0.17,19.79
+2025-03,acc-5835,sub-4,App Service,rg-9,res-403,northeurope,35.19,0.22,7.74
+2025-03,acc-7868,sub-2,Networking,rg-9,res-404,westus,87.57,1.3,113.84
+2025-03,acc-6883,sub-4,Kubernetes,rg-8,res-405,centralus,19.29,1.83,35.3
+2025-03,acc-5430,sub-2,Virtual Machines,rg-6,res-406,southeastasia,112.94,0.52,58.73
+2025-03,acc-9674,sub-3,Kubernetes,rg-4,res-407,westus,24.65,0.29,7.15
+2025-03,acc-9743,sub-1,Storage,rg-10,res-408,northeurope,0.54,0.77,0.42
+2025-03,acc-6210,sub-3,Kubernetes,rg-1,res-409,centralus,117.9,1.9,224.01
+2025-03,acc-4084,sub-4,Kubernetes,rg-5,res-410,westus,4.79,1.03,4.93
+2025-03,acc-4584,sub-1,Kubernetes,rg-8,res-411,eastus,19.23,0.73,14.04
+2025-03,acc-6582,sub-2,SQL Database,rg-1,res-412,eastus,149.85,0.38,56.94
+2025-03,acc-9622,sub-3,Virtual Machines,rg-6,res-413,northeurope,150.4,1.21,181.98
+2025-03,acc-3235,sub-2,Networking,rg-7,res-414,northeurope,42.6,1.33,56.66
+2025-03,acc-6846,sub-2,Networking,rg-10,res-415,westus,49.96,0.82,40.97
+2025-03,acc-3086,sub-2,Networking,rg-1,res-416,southeastasia,29.75,0.84,24.99
+2025-03,acc-6213,sub-5,Storage,rg-10,res-417,eastus,17.35,1.88,32.62
+2025-03,acc-4899,sub-3,SQL Database,rg-3,res-418,eastus,19.92,1.66,33.07
+2025-03,acc-8317,sub-1,SQL Database,rg-4,res-419,westus,55.82,1.42,79.26
+2025-03,acc-1020,sub-1,App Service,rg-8,res-420,northeurope,69.79,1.94,135.39
+2025-03,acc-6754,sub-5,App Service,rg-2,res-421,northeurope,78.41,1.6,125.46
+2025-03,acc-3664,sub-4,Virtual Machines,rg-1,res-422,centralus,77.94,0.14,10.91
+2025-03,acc-6600,sub-2,App Service,rg-3,res-423,eastus,4.78,1.14,5.45
+2025-03,acc-8909,sub-1,App Service,rg-3,res-424,southeastasia,34.1,1.79,61.04
+2025-03,acc-6424,sub-2,Storage,rg-7,res-425,southeastasia,2.96,1.47,4.35
+2025-03,acc-5612,sub-3,Storage,rg-2,res-426,eastus,39.87,0.85,33.89
+2025-03,acc-1893,sub-3,Virtual Machines,rg-7,res-427,eastus,29.13,0.66,19.23
+2025-03,acc-8869,sub-2,Virtual Machines,rg-1,res-428,westus,109.33,0.42,45.92
+2025-03,acc-2892,sub-3,App Service,rg-8,res-429,northeurope,21.61,1.8,38.9
+2025-03,acc-7349,sub-2,SQL Database,rg-7,res-430,centralus,6.23,0.45,2.8
+2025-03,acc-8619,sub-3,Storage,rg-5,res-431,southeastasia,7.72,0.22,1.7
+2025-03,acc-2404,sub-3,Kubernetes,rg-7,res-432,southeastasia,71.67,0.53,37.99
+2025-03,acc-7858,sub-5,Networking,rg-8,res-433,southeastasia,48.15,1.78,85.71
+2025-03,acc-7468,sub-1,Kubernetes,rg-10,res-434,southeastasia,5.33,1.62,8.63
+2025-03,acc-2970,sub-4,Storage,rg-3,res-435,westus,4.39,1.64,7.2
+2025-03,acc-2283,sub-4,Storage,rg-3,res-436,southeastasia,60.36,0.59,35.61
+2025-03,acc-7358,sub-5,App Service,rg-9,res-437,centralus,3.78,1.73,6.54
+2025-03,acc-9561,sub-4,Virtual Machines,rg-7,res-438,westus,86.26,0.38,32.78
+2025-03,acc-2730,sub-5,Virtual Machines,rg-5,res-439,southeastasia,61.25,1.77,108.41
+2025-03,acc-8955,sub-5,Kubernetes,rg-8,res-440,eastus,4.24,0.43,1.82
+2025-03,acc-7581,sub-1,App Service,rg-6,res-441,westus,4.43,0.19,0.84
+2025-03,acc-1331,sub-3,SQL Database,rg-5,res-442,centralus,215.77,1.7,366.81
+2025-03,acc-4734,sub-2,SQL Database,rg-8,res-443,centralus,23.44,0.61,14.3
+2025-03,acc-4079,sub-4,Storage,rg-7,res-444,northeurope,23.15,1.54,35.65
+2025-03,acc-3604,sub-1,SQL Database,rg-9,res-445,northeurope,83.78,0.36,30.16
+2025-03,acc-3846,sub-2,Storage,rg-1,res-446,westus,147.11,0.16,23.54
+2025-03,acc-5488,sub-3,App Service,rg-9,res-447,northeurope,213.44,1.31,279.61
+2025-03,acc-4963,sub-3,App Service,rg-10,res-448,northeurope,69.99,0.44,30.8
+2025-03,acc-6730,sub-3,Storage,rg-5,res-449,eastus,23.6,0.64,15.1
+2025-03,acc-4511,sub-2,Networking,rg-4,res-450,westus,4.36,0.61,2.66
+2025-03,acc-1145,sub-4,Storage,rg-3,res-451,southeastasia,75.06,1.62,121.6
+2025-03,acc-6004,sub-3,App Service,rg-7,res-452,centralus,40.87,0.97,39.64
+2025-03,acc-9530,sub-5,App Service,rg-10,res-453,eastus,27.6,0.11,3.04
+2025-03,acc-5631,sub-3,Networking,rg-2,res-454,northeurope,118.41,0.22,26.05
+2025-03,acc-5536,sub-3,Networking,rg-5,res-455,westus,5.89,0.38,2.24
+2025-03,acc-7620,sub-3,Networking,rg-3,res-456,eastus,33.93,1.35,45.81
+2025-03,acc-7628,sub-4,Networking,rg-1,res-457,southeastasia,0.57,1.45,0.83
+2025-03,acc-4643,sub-5,Networking,rg-8,res-458,centralus,31.62,1.06,33.52
+2025-03,acc-3967,sub-3,Virtual Machines,rg-8,res-459,westus,2.9,1.51,4.38
+2025-03,acc-6499,sub-1,Storage,rg-6,res-460,westus,6.32,1.51,9.54
+2025-03,acc-7089,sub-3,Kubernetes,rg-5,res-461,northeurope,6.25,1.72,10.75
+2025-03,acc-2166,sub-4,Storage,rg-9,res-462,eastus,52.38,1.75,91.67
+2025-03,acc-7768,sub-1,Storage,rg-3,res-463,westus,68.53,0.75,51.4
+2025-03,acc-6183,sub-2,Virtual Machines,rg-8,res-464,centralus,43.78,1.3,56.91
+2025-03,acc-1077,sub-4,SQL Database,rg-4,res-465,westus,163.74,1.19,194.85
+2025-03,acc-3120,sub-5,App Service,rg-7,res-466,northeurope,23.49,0.92,21.61
+2025-03,acc-1618,sub-5,Storage,rg-6,res-467,eastus,16.82,1.79,30.11
+2025-03,acc-1067,sub-2,Storage,rg-6,res-468,centralus,101.48,0.34,34.5
+2025-03,acc-6015,sub-2,Virtual Machines,rg-1,res-469,centralus,12.65,1.9,24.04
+2025-03,acc-9587,sub-3,App Service,rg-3,res-470,centralus,165.14,1.99,328.63
+2025-03,acc-3701,sub-4,Virtual Machines,rg-4,res-471,westus,0.61,1.48,0.9
+2025-03,acc-9267,sub-2,Virtual Machines,rg-6,res-472,eastus,175.13,0.81,141.86
+2025-03,acc-1796,sub-5,Virtual Machines,rg-2,res-473,eastus,2.21,0.19,0.42
+2025-03,acc-7230,sub-1,Kubernetes,rg-5,res-474,northeurope,110.89,1.43,158.57
+2025-03,acc-5933,sub-4,Networking,rg-2,res-475,southeastasia,37.51,0.61,22.88
+2025-03,acc-7862,sub-1,Kubernetes,rg-10,res-476,eastus,247.84,0.64,158.62
+2025-03,acc-4272,sub-3,Kubernetes,rg-4,res-477,centralus,3.83,1.44,5.52
+2025-03,acc-9980,sub-4,Storage,rg-8,res-478,centralus,40.36,0.55,22.2
+2025-03,acc-2809,sub-5,Networking,rg-8,res-479,westus,174.18,1.9,330.94
+2025-03,acc-5192,sub-2,App Service,rg-5,res-480,centralus,37.02,0.98,36.28
+2025-03,acc-5760,sub-3,Networking,rg-6,res-481,northeurope,49.63,1.5,74.45
+2025-03,acc-3267,sub-2,SQL Database,rg-6,res-482,northeurope,59.5,1.91,113.64
+2025-03,acc-7105,sub-3,Storage,rg-2,res-483,northeurope,30.31,0.86,26.07
+2025-03,acc-8835,sub-4,Networking,rg-3,res-484,eastus,49.38,0.35,17.28
+2025-03,acc-2699,sub-4,Kubernetes,rg-8,res-485,southeastasia,43.89,1.39,61.01
+2025-03,acc-6875,sub-5,Virtual Machines,rg-3,res-486,northeurope,115.71,1.85,214.06
+2025-03,acc-1753,sub-1,SQL Database,rg-6,res-487,eastus,2.33,1.44,3.36
+2025-03,acc-4669,sub-3,Kubernetes,rg-9,res-488,southeastasia,16.49,0.28,4.62
+2025-03,acc-8895,sub-3,Networking,rg-7,res-489,westus,150.2,1.69,253.84
+2025-03,acc-1190,sub-2,Kubernetes,rg-8,res-490,northeurope,110.48,1.75,193.34
+2025-03,acc-4946,sub-3,SQL Database,rg-1,res-491,southeastasia,30.41,0.52,15.81
+2025-03,acc-4850,sub-1,App Service,rg-8,res-492,southeastasia,48.4,0.95,45.98
+2025-03,acc-2944,sub-4,Networking,rg-1,res-493,eastus,16.24,0.87,14.13
+2025-03,acc-1002,sub-1,Kubernetes,rg-10,res-494,centralus,10.42,1.79,18.65
+2025-03,acc-6584,sub-3,Virtual Machines,rg-4,res-495,northeurope,31.15,0.73,22.74
+2025-03,acc-6952,sub-4,Virtual Machines,rg-2,res-496,westus,21.8,0.1,2.18
+2025-03,acc-9973,sub-5,SQL Database,rg-2,res-497,eastus,43.81,1.8,78.86
+2025-03,acc-2752,sub-3,Kubernetes,rg-4,res-498,westus,4.05,0.33,1.34
+2025-03,acc-4122,sub-3,Virtual Machines,rg-7,res-499,eastus,183.25,1.86,340.85
+2025-03,acc-8381,sub-4,Networking,rg-10,res-500,southeastasia,214.19,0.36,77.11
+2025-03,acc-1795,sub-5,App Service,rg-10,res-501,northeurope,59.89,1.86,111.4
+2025-03,acc-3845,sub-2,Virtual Machines,rg-7,res-502,southeastasia,38.4,1.25,48.0
+2025-03,acc-7859,sub-5,Networking,rg-4,res-503,centralus,18.52,0.86,15.93
+2025-03,acc-3185,sub-2,App Service,rg-10,res-504,southeastasia,84.05,0.67,56.31
+2025-03,acc-4560,sub-2,Storage,rg-10,res-505,centralus,57.72,1.4,80.81
+2025-03,acc-9255,sub-5,Networking,rg-6,res-506,eastus,8.87,1.55,13.75
+2025-03,acc-7839,sub-5,SQL Database,rg-7,res-507,eastus,120.92,1.09,131.8
+2025-03,acc-1869,sub-1,Storage,rg-5,res-508,westus,86.45,1.97,170.31
+2025-03,acc-2016,sub-3,Storage,rg-9,res-509,eastus,149.59,0.78,116.68
+2025-03,acc-4675,sub-5,App Service,rg-4,res-510,southeastasia,64.68,1.59,102.84
+2025-03,acc-7251,sub-4,App Service,rg-6,res-511,southeastasia,47.52,0.2,9.5
+2025-03,acc-8259,sub-2,Networking,rg-6,res-512,southeastasia,27.09,1.14,30.88
+2025-03,acc-5819,sub-4,Storage,rg-2,res-513,westus,134.95,1.93,260.45
+2025-03,acc-7180,sub-1,App Service,rg-5,res-514,southeastasia,100.52,0.6,60.31
+2025-03,acc-1092,sub-3,App Service,rg-3,res-515,eastus,2.31,0.39,0.9
+2025-03,acc-5934,sub-4,Kubernetes,rg-9,res-516,centralus,1.34,0.24,0.32
+2025-03,acc-4603,sub-2,Kubernetes,rg-2,res-517,southeastasia,23.62,0.4,9.45
+2025-03,acc-2506,sub-3,Storage,rg-4,res-518,centralus,83.18,0.73,60.72
+2025-03,acc-9691,sub-4,Kubernetes,rg-1,res-519,eastus,218.21,1.37,298.95
+2025-03,acc-4994,sub-1,Networking,rg-6,res-520,northeurope,8.15,1.84,15.0
+2025-03,acc-9851,sub-3,Virtual Machines,rg-9,res-521,centralus,45.09,1.08,48.7
+2025-03,acc-1718,sub-3,Networking,rg-4,res-522,centralus,23.97,1.08,25.89
+2025-03,acc-9736,sub-1,Networking,rg-2,res-523,westus,175.19,1.37,240.01
+2025-03,acc-2702,sub-2,Kubernetes,rg-7,res-524,eastus,92.3,1.52,140.3
+2025-03,acc-6434,sub-1,Virtual Machines,rg-2,res-525,eastus,91.11,0.44,40.09
+2025-03,acc-4729,sub-3,App Service,rg-7,res-526,northeurope,31.62,1.3,41.11
+2025-03,acc-7381,sub-1,Kubernetes,rg-1,res-527,southeastasia,26.79,0.22,5.89
+2025-03,acc-2189,sub-3,Kubernetes,rg-2,res-528,centralus,15.97,1.6,25.55
+2025-03,acc-5612,sub-4,App Service,rg-7,res-529,eastus,2.9,1.0,2.9
+2025-03,acc-7406,sub-5,SQL Database,rg-3,res-530,centralus,100.02,1.39,139.03
+2025-03,acc-1182,sub-5,Kubernetes,rg-3,res-531,eastus,83.81,0.18,15.09
+2025-03,acc-9800,sub-5,Virtual Machines,rg-5,res-532,westus,408.62,1.52,621.1
+2025-03,acc-7760,sub-5,Storage,rg-3,res-533,westus,284.74,0.52,148.06
+2025-03,acc-3971,sub-5,Virtual Machines,rg-9,res-534,northeurope,40.53,1.32,53.5
+2025-03,acc-5107,sub-1,Storage,rg-10,res-535,northeurope,73.26,1.91,139.93
+2025-03,acc-2639,sub-3,Kubernetes,rg-2,res-536,westus,144.81,0.7,101.37
+2025-03,acc-6008,sub-5,Storage,rg-10,res-537,southeastasia,94.74,0.79,74.84
+2025-03,acc-1079,sub-3,Storage,rg-4,res-538,northeurope,14.21,0.63,8.95
+2025-03,acc-8863,sub-4,App Service,rg-6,res-539,centralus,29.94,1.03,30.84
+2025-03,acc-2343,sub-3,Storage,rg-9,res-540,westus,6.91,0.6,4.15
+2025-03,acc-1305,sub-5,Networking,rg-1,res-541,southeastasia,154.01,1.2,184.81
+2025-03,acc-5269,sub-5,Kubernetes,rg-8,res-542,westus,46.59,0.8,37.27
+2025-03,acc-3193,sub-4,Kubernetes,rg-9,res-543,eastus,12.98,0.85,11.03
+2025-03,acc-3717,sub-5,Storage,rg-8,res-544,westus,55.69,0.44,24.5
+2025-03,acc-8921,sub-3,Virtual Machines,rg-4,res-545,northeurope,48.13,0.54,25.99
+2025-03,acc-1701,sub-2,Kubernetes,rg-6,res-546,northeurope,22.17,0.99,21.95
+2025-03,acc-6309,sub-1,Networking,rg-9,res-547,centralus,6.03,1.69,10.19
+2025-03,acc-3848,sub-4,Networking,rg-7,res-548,centralus,55.67,1.22,67.92
+2025-03,acc-7165,sub-2,Kubernetes,rg-7,res-549,centralus,36.73,1.65,60.6
+2025-03,acc-1108,sub-5,Storage,rg-8,res-550,westus,73.99,0.54,39.95
+2025-03,acc-4465,sub-2,Storage,rg-3,res-551,centralus,36.72,1.24,45.53
+2025-03,acc-7793,sub-3,Networking,rg-2,res-552,northeurope,95.59,1.38,131.91
+2025-03,acc-3641,sub-4,Virtual Machines,rg-4,res-553,eastus,40.14,0.34,13.65
+2025-03,acc-9399,sub-1,Kubernetes,rg-3,res-554,eastus,41.16,0.42,17.29
+2025-03,acc-1305,sub-3,Virtual Machines,rg-4,res-555,northeurope,104.64,1.25,130.8
+2025-03,acc-4594,sub-4,Kubernetes,rg-3,res-556,southeastasia,25.83,1.66,42.88
+2025-03,acc-5333,sub-2,Networking,rg-6,res-557,northeurope,7.19,1.23,8.84
+2025-03,acc-7315,sub-2,Virtual Machines,rg-1,res-558,westus,1.46,1.09,1.59
+2025-03,acc-3450,sub-5,Virtual Machines,rg-3,res-559,northeurope,70.35,1.81,127.33
+2025-03,acc-9246,sub-1,Virtual Machines,rg-8,res-560,westus,48.42,1.81,87.64
+2025-03,acc-9553,sub-4,SQL Database,rg-1,res-561,southeastasia,60.88,0.92,56.01
+2025-03,acc-2600,sub-4,Storage,rg-5,res-562,northeurope,11.97,1.56,18.67
+2025-03,acc-9908,sub-4,SQL Database,rg-4,res-563,eastus,7.33,1.45,10.63
+2025-03,acc-2930,sub-5,Virtual Machines,rg-7,res-564,westus,0.73,1.41,1.03
+2025-03,acc-2746,sub-2,App Service,rg-10,res-565,centralus,21.58,0.6,12.95
+2025-03,acc-6990,sub-5,SQL Database,rg-7,res-566,westus,44.57,0.89,39.67
+2025-03,acc-7065,sub-5,Kubernetes,rg-8,res-567,centralus,24.9,1.98,49.3
+2025-03,acc-3262,sub-1,Networking,rg-4,res-568,northeurope,28.77,1.59,45.74
+2025-03,acc-9328,sub-4,SQL Database,rg-9,res-569,southeastasia,117.25,1.42,166.5
+2025-03,acc-7375,sub-1,Virtual Machines,rg-3,res-570,northeurope,21.41,1.86,39.82
+2025-03,acc-5310,sub-2,SQL Database,rg-2,res-571,southeastasia,36.08,0.17,6.13
+2025-03,acc-9536,sub-3,Networking,rg-10,res-572,eastus,76.54,1.9,145.43
+2025-03,acc-8192,sub-1,Storage,rg-9,res-573,centralus,25.25,0.47,11.87
+2025-03,acc-4795,sub-5,Storage,rg-1,res-574,centralus,48.65,0.55,26.76
+2025-03,acc-5520,sub-4,SQL Database,rg-7,res-575,northeurope,99.16,1.21,119.98
+2025-03,acc-2477,sub-5,SQL Database,rg-9,res-576,southeastasia,149.31,0.76,113.48
+2025-03,acc-4187,sub-4,App Service,rg-10,res-577,eastus,7.95,0.6,4.77
+2025-03,acc-2185,sub-5,SQL Database,rg-6,res-578,eastus,130.58,1.63,212.85
+2025-03,acc-5098,sub-4,App Service,rg-10,res-579,northeurope,33.88,1.56,52.85
+2025-03,acc-1448,sub-4,Virtual Machines,rg-5,res-580,eastus,14.94,0.83,12.4
+2025-03,acc-6172,sub-4,SQL Database,rg-9,res-581,southeastasia,30.73,0.12,3.69
+2025-03,acc-2523,sub-4,Networking,rg-6,res-582,eastus,195.68,1.15,225.03
+2025-03,acc-6792,sub-2,Kubernetes,rg-5,res-583,westus,33.92,1.9,64.45
+2025-03,acc-4271,sub-2,Networking,rg-4,res-584,centralus,19.93,0.49,9.77
+2025-03,acc-6833,sub-2,Virtual Machines,rg-2,res-585,eastus,50.17,1.38,69.23
+2025-03,acc-1108,sub-5,Virtual Machines,rg-8,res-586,centralus,13.73,1.28,17.57
+2025-03,acc-9041,sub-2,Kubernetes,rg-5,res-587,northeurope,3.94,0.52,2.05
+2025-03,acc-9613,sub-4,App Service,rg-9,res-588,eastus,6.9,1.05,7.25
+2025-03,acc-8490,sub-1,Networking,rg-9,res-589,northeurope,6.85,0.7,4.79
+2025-03,acc-7216,sub-5,Virtual Machines,rg-6,res-590,centralus,8.24,1.26,10.38
+2025-03,acc-5306,sub-2,SQL Database,rg-8,res-591,southeastasia,7.47,0.75,5.6
+2025-03,acc-4449,sub-4,Networking,rg-6,res-592,centralus,51.2,1.72,88.06
+2025-03,acc-3148,sub-5,Networking,rg-4,res-593,eastus,10.04,1.47,14.76
+2025-03,acc-7240,sub-2,Storage,rg-3,res-594,northeurope,21.21,1.63,34.57
+2025-03,acc-3203,sub-5,Kubernetes,rg-6,res-595,northeurope,113.55,0.67,76.08
+2025-03,acc-7527,sub-1,Networking,rg-3,res-596,eastus,32.12,0.51,16.38
+2025-03,acc-8370,sub-3,SQL Database,rg-6,res-597,centralus,55.06,1.16,63.87
+2025-03,acc-7746,sub-1,SQL Database,rg-10,res-598,westus,9.46,1.2,11.35
+2025-03,acc-3859,sub-3,SQL Database,rg-6,res-599,southeastasia,10.68,1.03,11.0
+2025-03,acc-7243,sub-5,SQL Database,rg-8,res-600,westus,2.09,1.75,3.66
+2025-04,acc-7631,sub-1,Virtual Machines,rg-3,res-601,centralus,9.25,0.53,4.9
+2025-04,acc-5382,sub-5,Networking,rg-7,res-602,centralus,16.33,1.79,29.23
+2025-04,acc-9535,sub-4,App Service,rg-3,res-603,westus,9.74,1.72,16.75
+2025-04,acc-5122,sub-1,Storage,rg-3,res-604,northeurope,4.64,0.3,1.39
+2025-04,acc-1881,sub-1,App Service,rg-9,res-605,eastus,6.43,0.3,1.93
+2025-04,acc-7387,sub-3,Storage,rg-4,res-606,centralus,30.88,0.94,29.03
+2025-04,acc-3795,sub-1,Virtual Machines,rg-6,res-607,centralus,11.55,1.74,20.1
+2025-04,acc-9987,sub-4,Storage,rg-9,res-608,westus,22.65,1.22,27.63
+2025-04,acc-8126,sub-5,Networking,rg-9,res-609,centralus,35.0,1.83,64.05
+2025-04,acc-2467,sub-4,SQL Database,rg-6,res-610,northeurope,58.62,0.59,34.59
+2025-04,acc-9574,sub-2,SQL Database,rg-5,res-611,northeurope,2.01,1.12,2.25
+2025-04,acc-5908,sub-1,App Service,rg-5,res-612,southeastasia,80.32,0.54,43.37
+2025-04,acc-4089,sub-4,Kubernetes,rg-7,res-613,northeurope,49.43,0.57,28.18
+2025-04,acc-7199,sub-2,SQL Database,rg-2,res-614,northeurope,4.26,1.29,5.5
+2025-04,acc-5664,sub-5,SQL Database,rg-7,res-615,westus,103.41,1.72,177.87
+2025-04,acc-2808,sub-4,Kubernetes,rg-8,res-616,centralus,126.83,1.43,181.37
+2025-04,acc-1317,sub-2,Virtual Machines,rg-9,res-617,eastus,3.15,0.45,1.42
+2025-04,acc-3048,sub-4,Networking,rg-1,res-618,westus,16.21,0.27,4.38
+2025-04,acc-6601,sub-4,SQL Database,rg-8,res-619,centralus,82.05,0.98,80.41
+2025-04,acc-3393,sub-1,SQL Database,rg-7,res-620,eastus,68.97,1.13,77.94
+2025-04,acc-7251,sub-1,Virtual Machines,rg-4,res-621,northeurope,10.2,1.57,16.01
+2025-04,acc-4263,sub-4,Networking,rg-2,res-622,southeastasia,11.74,1.37,16.08
+2025-04,acc-6113,sub-3,Storage,rg-1,res-623,southeastasia,23.14,1.09,25.22
+2025-04,acc-4255,sub-3,Virtual Machines,rg-4,res-624,eastus,33.13,0.55,18.22
+2025-04,acc-3742,sub-3,Kubernetes,rg-2,res-625,northeurope,48.15,1.6,77.04
+2025-04,acc-8786,sub-5,Storage,rg-6,res-626,eastus,23.02,0.57,13.12
+2025-04,acc-6544,sub-1,Virtual Machines,rg-6,res-627,westus,31.04,1.43,44.39
+2025-04,acc-4812,sub-3,Kubernetes,rg-6,res-628,northeurope,68.81,1.49,102.53
+2025-04,acc-6868,sub-2,SQL Database,rg-1,res-629,northeurope,1.87,1.44,2.69
+2025-04,acc-9029,sub-2,Kubernetes,rg-3,res-630,southeastasia,14.55,0.76,11.06
+2025-04,acc-3627,sub-1,Kubernetes,rg-3,res-631,northeurope,62.47,0.66,41.23
+2025-04,acc-8439,sub-1,Networking,rg-9,res-632,northeurope,112.79,1.49,168.06
+2025-04,acc-4912,sub-3,Networking,rg-2,res-633,southeastasia,35.84,1.66,59.49
+2025-04,acc-3525,sub-5,SQL Database,rg-6,res-634,northeurope,37.98,1.32,50.13
+2025-04,acc-2092,sub-1,Storage,rg-3,res-635,eastus,5.67,0.48,2.72
+2025-04,acc-1521,sub-5,Networking,rg-7,res-636,northeurope,29.66,1.1,32.63
+2025-04,acc-1804,sub-3,Storage,rg-10,res-637,eastus,38.03,0.12,4.56
+2025-04,acc-2310,sub-4,Networking,rg-1,res-638,centralus,13.88,1.16,16.1
+2025-04,acc-5355,sub-5,Virtual Machines,rg-2,res-639,centralus,15.68,0.25,3.92
+2025-04,acc-2658,sub-2,Kubernetes,rg-7,res-640,westus,23.68,0.47,11.13
+2025-04,acc-3931,sub-5,Networking,rg-9,res-641,northeurope,1.01,1.52,1.54
+2025-04,acc-8515,sub-4,Virtual Machines,rg-3,res-642,westus,19.44,1.14,22.16
+2025-04,acc-9747,sub-5,App Service,rg-6,res-643,centralus,11.88,1.15,13.66
+2025-04,acc-8054,sub-3,Kubernetes,rg-4,res-644,southeastasia,19.84,1.14,22.62
+2025-04,acc-6898,sub-4,App Service,rg-7,res-645,eastus,6.38,1.48,9.44
+2025-04,acc-9480,sub-2,SQL Database,rg-1,res-646,centralus,110.6,1.97,217.88
+2025-04,acc-5521,sub-5,Kubernetes,rg-9,res-647,southeastasia,45.02,1.86,83.74
+2025-04,acc-8542,sub-3,Storage,rg-3,res-648,centralus,56.83,0.8,45.46
+2025-04,acc-5198,sub-3,Virtual Machines,rg-10,res-649,northeurope,77.84,1.18,91.85
+2025-04,acc-6319,sub-4,Storage,rg-8,res-650,southeastasia,34.5,1.66,57.27
+2025-04,acc-1612,sub-5,App Service,rg-2,res-651,eastus,4.55,1.85,8.42
+2025-04,acc-7824,sub-1,Storage,rg-10,res-652,eastus,38.51,1.3,50.06
+2025-04,acc-5993,sub-5,Virtual Machines,rg-6,res-653,southeastasia,44.2,1.17,51.71
+2025-04,acc-3509,sub-1,Networking,rg-7,res-654,northeurope,68.41,1.53,104.67
+2025-04,acc-4638,sub-4,SQL Database,rg-7,res-655,westus,28.25,0.35,9.89
+2025-04,acc-1807,sub-5,App Service,rg-5,res-656,eastus,6.82,0.86,5.87
+2025-04,acc-3209,sub-4,Kubernetes,rg-4,res-657,northeurope,16.69,0.85,14.19
+2025-04,acc-9589,sub-2,Storage,rg-2,res-658,centralus,22.56,1.58,35.64
+2025-04,acc-2467,sub-1,Networking,rg-7,res-659,northeurope,51.91,0.79,41.01
+2025-04,acc-1396,sub-3,Storage,rg-6,res-660,southeastasia,42.29,1.66,70.2
+2025-04,acc-8216,sub-1,Storage,rg-4,res-661,centralus,22.01,0.4,8.8
+2025-04,acc-1893,sub-2,Kubernetes,rg-3,res-662,centralus,215.31,0.13,27.99
+2025-04,acc-8373,sub-4,Virtual Machines,rg-6,res-663,westus,46.54,1.51,70.28
+2025-04,acc-9573,sub-3,Kubernetes,rg-8,res-664,southeastasia,13.54,1.49,20.17
+2025-04,acc-7170,sub-5,Networking,rg-9,res-665,eastus,5.37,0.59,3.17
+2025-04,acc-5444,sub-1,App Service,rg-1,res-666,eastus,8.29,0.84,6.96
+2025-04,acc-2767,sub-1,SQL Database,rg-7,res-667,westus,14.12,1.96,27.68
+2025-04,acc-6168,sub-4,Kubernetes,rg-9,res-668,eastus,8.76,0.45,3.94
+2025-04,acc-1352,sub-1,Storage,rg-9,res-669,centralus,10.32,0.73,7.53
+2025-04,acc-1301,sub-3,Networking,rg-6,res-670,centralus,16.78,1.29,21.65
+2025-04,acc-2015,sub-3,App Service,rg-1,res-671,southeastasia,9.52,1.9,18.09
+2025-04,acc-7436,sub-2,Virtual Machines,rg-7,res-672,southeastasia,113.54,1.93,219.13
+2025-04,acc-7837,sub-2,Kubernetes,rg-3,res-673,northeurope,4.18,1.94,8.11
+2025-04,acc-9883,sub-2,Storage,rg-3,res-674,southeastasia,37.17,1.13,42.0
+2025-04,acc-9582,sub-2,App Service,rg-3,res-675,southeastasia,26.42,1.84,48.61
+2025-04,acc-9732,sub-1,Storage,rg-6,res-676,westus,201.93,1.48,298.86
+2025-04,acc-5970,sub-4,Networking,rg-5,res-677,westus,5.94,1.58,9.39
+2025-04,acc-1429,sub-5,Kubernetes,rg-5,res-678,southeastasia,25.36,1.18,29.92
+2025-04,acc-4783,sub-1,SQL Database,rg-2,res-679,northeurope,174.45,0.35,61.06
+2025-04,acc-4014,sub-4,App Service,rg-8,res-680,westus,100.31,0.41,41.13
+2025-04,acc-1245,sub-3,App Service,rg-4,res-681,westus,84.93,1.54,130.79
+2025-04,acc-9027,sub-3,App Service,rg-4,res-682,northeurope,14.91,0.87,12.97
+2025-04,acc-6126,sub-4,Kubernetes,rg-10,res-683,southeastasia,9.37,1.12,10.49
+2025-04,acc-9530,sub-1,App Service,rg-8,res-684,eastus,55.23,1.77,97.76
+2025-04,acc-7481,sub-1,Kubernetes,rg-7,res-685,southeastasia,132.52,1.55,205.41
+2025-04,acc-8201,sub-4,SQL Database,rg-5,res-686,northeurope,40.68,0.42,17.09
+2025-04,acc-9470,sub-2,App Service,rg-8,res-687,eastus,42.39,1.47,62.31
+2025-04,acc-9952,sub-2,App Service,rg-7,res-688,centralus,16.42,0.96,15.76
+2025-04,acc-4308,sub-4,Virtual Machines,rg-5,res-689,centralus,73.37,1.41,103.45
+2025-04,acc-2494,sub-1,Networking,rg-8,res-690,centralus,10.35,0.26,2.69
+2025-04,acc-3619,sub-4,Kubernetes,rg-7,res-691,eastus,19.55,1.56,30.5
+2025-04,acc-3656,sub-2,Storage,rg-1,res-692,northeurope,27.71,0.69,19.12
+2025-04,acc-3960,sub-1,Storage,rg-4,res-693,eastus,35.42,1.28,45.34
+2025-04,acc-9153,sub-4,Kubernetes,rg-1,res-694,southeastasia,13.88,1.78,24.71
+2025-04,acc-8794,sub-4,App Service,rg-8,res-695,eastus,6.1,1.24,7.56
+2025-04,acc-5556,sub-5,Networking,rg-9,res-696,westus,47.16,0.19,8.96
+2025-04,acc-1601,sub-2,Virtual Machines,rg-10,res-697,southeastasia,17.03,0.67,11.41
+2025-04,acc-7831,sub-2,Storage,rg-5,res-698,southeastasia,43.52,1.36,59.19
+2025-04,acc-3906,sub-4,Networking,rg-10,res-699,centralus,8.38,1.87,15.67
+2025-04,acc-7038,sub-4,Virtual Machines,rg-7,res-700,southeastasia,32.81,0.22,7.22
+2025-04,acc-5496,sub-3,Kubernetes,rg-7,res-701,southeastasia,38.03,0.5,19.02
+2025-04,acc-2790,sub-5,Networking,rg-9,res-702,eastus,2.66,1.02,2.71
+2025-04,acc-7996,sub-5,SQL Database,rg-5,res-703,southeastasia,20.52,1.19,24.42
+2025-04,acc-9132,sub-5,Networking,rg-8,res-704,northeurope,7.22,1.64,11.84
+2025-04,acc-4171,sub-1,Virtual Machines,rg-1,res-705,northeurope,3.27,1.29,4.22
+2025-04,acc-7793,sub-4,Virtual Machines,rg-6,res-706,centralus,230.06,1.16,266.87
+2025-04,acc-4296,sub-3,SQL Database,rg-2,res-707,centralus,19.46,0.67,13.04
+2025-04,acc-2865,sub-3,SQL Database,rg-7,res-708,southeastasia,83.0,1.27,105.41
+2025-04,acc-6415,sub-3,Networking,rg-8,res-709,northeurope,14.69,1.61,23.65
+2025-04,acc-3545,sub-4,Kubernetes,rg-6,res-710,northeurope,57.21,1.59,90.96
+2025-04,acc-9537,sub-3,Kubernetes,rg-6,res-711,southeastasia,71.4,1.12,79.97
+2025-04,acc-6793,sub-1,Storage,rg-5,res-712,eastus,45.27,0.74,33.5
+2025-04,acc-3719,sub-5,Kubernetes,rg-7,res-713,westus,31.89,1.23,39.22
+2025-04,acc-1518,sub-3,App Service,rg-2,res-714,northeurope,26.54,1.77,46.98
+2025-04,acc-4541,sub-5,SQL Database,rg-3,res-715,eastus,21.45,0.81,17.37
+2025-04,acc-8270,sub-5,Virtual Machines,rg-8,res-716,southeastasia,132.63,0.39,51.73
+2025-04,acc-6084,sub-3,Storage,rg-2,res-717,southeastasia,88.78,1.39,123.4
+2025-04,acc-8526,sub-4,Networking,rg-9,res-718,eastus,167.66,0.11,18.44
+2025-04,acc-2426,sub-3,App Service,rg-1,res-719,eastus,6.64,1.09,7.24
+2025-04,acc-1368,sub-5,SQL Database,rg-4,res-720,centralus,65.63,0.48,31.5
+2025-04,acc-6228,sub-4,Networking,rg-2,res-721,centralus,139.31,0.38,52.94
+2025-04,acc-9422,sub-1,Storage,rg-9,res-722,centralus,10.0,1.14,11.4
+2025-04,acc-5011,sub-2,Virtual Machines,rg-5,res-723,southeastasia,3.44,1.8,6.19
+2025-04,acc-3131,sub-1,App Service,rg-1,res-724,eastus,67.57,0.83,56.08
+2025-04,acc-3932,sub-5,Kubernetes,rg-8,res-725,southeastasia,42.72,0.78,33.32
+2025-04,acc-2286,sub-4,Kubernetes,rg-3,res-726,eastus,92.2,1.64,151.21
+2025-04,acc-8464,sub-3,Networking,rg-8,res-727,northeurope,7.53,0.54,4.07
+2025-04,acc-5227,sub-3,App Service,rg-3,res-728,centralus,79.3,1.6,126.88
+2025-04,acc-1495,sub-1,App Service,rg-2,res-729,centralus,11.26,1.01,11.37
+2025-04,acc-3087,sub-5,Virtual Machines,rg-7,res-730,eastus,8.94,0.72,6.44
+2025-04,acc-9728,sub-4,App Service,rg-10,res-731,northeurope,8.97,0.55,4.93
+2025-04,acc-8903,sub-4,Virtual Machines,rg-6,res-732,westus,84.26,1.65,139.03
+2025-04,acc-6606,sub-5,Networking,rg-4,res-733,westus,54.71,1.36,74.41
+2025-04,acc-8972,sub-1,Kubernetes,rg-10,res-734,northeurope,37.02,0.72,26.65
+2025-04,acc-6046,sub-4,Virtual Machines,rg-10,res-735,eastus,22.22,1.4,31.11
+2025-04,acc-9098,sub-1,Virtual Machines,rg-4,res-736,westus,104.86,1.79,187.7
+2025-04,acc-3444,sub-4,Kubernetes,rg-5,res-737,northeurope,24.92,1.27,31.65
+2025-04,acc-6187,sub-3,Kubernetes,rg-5,res-738,northeurope,84.8,1.46,123.81
+2025-04,acc-1133,sub-5,Kubernetes,rg-7,res-739,westus,28.91,1.72,49.73
+2025-04,acc-1870,sub-1,Networking,rg-9,res-740,centralus,23.66,0.31,7.33
+2025-04,acc-8073,sub-5,App Service,rg-6,res-741,northeurope,31.06,0.87,27.02
+2025-04,acc-3841,sub-4,Storage,rg-4,res-742,southeastasia,17.93,0.83,14.88
+2025-04,acc-5726,sub-2,Storage,rg-1,res-743,eastus,68.84,1.33,91.56
+2025-04,acc-8155,sub-2,Virtual Machines,rg-3,res-744,northeurope,34.93,1.73,60.43
+2025-04,acc-3945,sub-4,Kubernetes,rg-7,res-745,southeastasia,13.21,1.66,21.93
+2025-04,acc-4044,sub-4,Kubernetes,rg-1,res-746,southeastasia,114.92,1.05,120.67
+2025-04,acc-5411,sub-4,Kubernetes,rg-10,res-747,centralus,24.22,0.16,3.88
+2025-04,acc-7038,sub-1,Kubernetes,rg-8,res-748,eastus,39.21,0.37,14.51
+2025-04,acc-8617,sub-5,Virtual Machines,rg-9,res-749,southeastasia,118.47,0.27,31.99
+2025-04,acc-9834,sub-5,SQL Database,rg-10,res-750,eastus,48.94,1.82,89.07
+2025-04,acc-8438,sub-5,App Service,rg-10,res-751,centralus,6.22,0.9,5.6
+2025-04,acc-1578,sub-5,Networking,rg-5,res-752,southeastasia,140.53,0.59,82.91
+2025-04,acc-3770,sub-5,Virtual Machines,rg-5,res-753,southeastasia,49.4,0.15,7.41
+2025-04,acc-9283,sub-1,SQL Database,rg-5,res-754,westus,20.39,1.27,25.9
+2025-04,acc-2827,sub-5,Storage,rg-10,res-755,westus,7.5,1.35,10.12
+2025-04,acc-4869,sub-4,Storage,rg-9,res-756,eastus,79.0,0.75,59.25
+2025-04,acc-3525,sub-4,App Service,rg-7,res-757,westus,48.39,1.36,65.81
+2025-04,acc-4454,sub-5,Networking,rg-6,res-758,eastus,38.12,1.32,50.32
+2025-04,acc-8602,sub-4,App Service,rg-5,res-759,northeurope,112.17,1.52,170.5
+2025-04,acc-7390,sub-4,SQL Database,rg-3,res-760,southeastasia,77.7,1.75,135.97
+2025-04,acc-7258,sub-3,Kubernetes,rg-1,res-761,eastus,8.22,1.84,15.12
+2025-04,acc-5466,sub-3,SQL Database,rg-5,res-762,eastus,18.68,0.59,11.02
+2025-04,acc-4961,sub-5,Storage,rg-9,res-763,centralus,14.28,1.39,19.85
+2025-04,acc-1173,sub-1,Virtual Machines,rg-1,res-764,northeurope,68.12,0.29,19.75
+2025-04,acc-6759,sub-2,Networking,rg-5,res-765,centralus,1.71,0.47,0.8
+2025-04,acc-1931,sub-5,Networking,rg-4,res-766,southeastasia,42.19,1.31,55.27
+2025-04,acc-3128,sub-4,Networking,rg-10,res-767,westus,71.87,1.8,129.37
+2025-04,acc-5826,sub-4,Networking,rg-2,res-768,northeurope,104.68,1.85,193.66
+2025-04,acc-5216,sub-2,Virtual Machines,rg-5,res-769,eastus,20.93,0.83,17.37
+2025-04,acc-5336,sub-2,App Service,rg-2,res-770,northeurope,86.09,1.96,168.74
+2025-04,acc-3923,sub-4,Virtual Machines,rg-3,res-771,southeastasia,5.86,1.56,9.14
+2025-04,acc-8234,sub-3,Virtual Machines,rg-1,res-772,eastus,93.69,0.23,21.55
+2025-04,acc-1307,sub-4,Storage,rg-1,res-773,eastus,6.82,1.36,9.28
+2025-04,acc-7411,sub-5,Virtual Machines,rg-9,res-774,northeurope,25.32,1.01,25.57
+2025-04,acc-9849,sub-2,Virtual Machines,rg-7,res-775,northeurope,79.8,0.33,26.33
+2025-04,acc-5961,sub-4,Virtual Machines,rg-2,res-776,centralus,8.12,1.12,9.09
+2025-04,acc-5750,sub-2,Storage,rg-9,res-777,eastus,13.02,1.94,25.26
+2025-04,acc-7391,sub-1,Networking,rg-6,res-778,northeurope,64.05,0.26,16.65
+2025-04,acc-3292,sub-1,Storage,rg-1,res-779,southeastasia,63.65,0.55,35.01
+2025-04,acc-6041,sub-4,Kubernetes,rg-8,res-780,eastus,51.24,0.17,8.71
+2025-04,acc-7643,sub-1,Storage,rg-9,res-781,northeurope,59.2,1.89,111.89
+2025-04,acc-4817,sub-1,Virtual Machines,rg-3,res-782,northeurope,39.12,1.34,52.42
+2025-04,acc-4976,sub-2,Virtual Machines,rg-3,res-783,eastus,14.5,1.82,26.39
+2025-04,acc-3796,sub-5,Virtual Machines,rg-2,res-784,eastus,21.21,1.04,22.06
+2025-04,acc-4320,sub-4,SQL Database,rg-7,res-785,centralus,10.02,0.33,3.31
+2025-04,acc-3250,sub-3,Storage,rg-1,res-786,southeastasia,119.54,0.43,51.4
+2025-04,acc-3314,sub-4,Storage,rg-6,res-787,southeastasia,43.78,0.41,17.95
+2025-04,acc-3185,sub-1,Networking,rg-10,res-788,northeurope,25.61,1.58,40.46
+2025-04,acc-1104,sub-1,Storage,rg-2,res-789,southeastasia,31.0,1.79,55.49
+2025-04,acc-3079,sub-2,Storage,rg-5,res-790,southeastasia,147.14,0.96,141.25
+2025-04,acc-1616,sub-5,Storage,rg-8,res-791,southeastasia,8.32,1.91,15.89
+2025-04,acc-7861,sub-1,Kubernetes,rg-4,res-792,westus,44.12,0.32,14.12
+2025-04,acc-6929,sub-5,Kubernetes,rg-4,res-793,northeurope,35.25,1.56,54.99
+2025-04,acc-1869,sub-2,Virtual Machines,rg-3,res-794,northeurope,47.27,1.05,49.63
+2025-04,acc-1885,sub-3,SQL Database,rg-4,res-795,northeurope,0.91,0.58,0.53
+2025-04,acc-2710,sub-1,Kubernetes,rg-3,res-796,westus,102.83,1.59,163.5
+2025-04,acc-2160,sub-2,Networking,rg-8,res-797,southeastasia,134.5,1.2,161.4
+2025-04,acc-4769,sub-1,SQL Database,rg-4,res-798,eastus,41.64,0.55,22.9
+2025-04,acc-4615,sub-1,App Service,rg-10,res-799,northeurope,59.64,0.2,11.93
+2025-04,acc-8454,sub-2,App Service,rg-6,res-800,westus,127.87,0.97,124.03
+2025-05,acc-5418,sub-2,SQL Database,rg-3,res-801,eastus,61.42,1.42,87.22
+2025-05,acc-2820,sub-4,App Service,rg-7,res-802,westus,8.28,1.54,12.75
+2025-05,acc-3568,sub-5,Storage,rg-10,res-803,southeastasia,42.94,1.72,73.86
+2025-05,acc-9015,sub-2,Kubernetes,rg-8,res-804,northeurope,46.66,0.63,29.4
+2025-05,acc-5060,sub-3,App Service,rg-10,res-805,westus,27.59,1.79,49.39
+2025-05,acc-1083,sub-4,Virtual Machines,rg-1,res-806,northeurope,66.67,1.49,99.34
+2025-05,acc-9701,sub-4,App Service,rg-2,res-807,northeurope,136.18,1.04,141.63
+2025-05,acc-7662,sub-2,Storage,rg-6,res-808,centralus,129.89,0.55,71.44
+2025-05,acc-5994,sub-2,Networking,rg-8,res-809,southeastasia,29.97,1.52,45.55
+2025-05,acc-3271,sub-4,Storage,rg-6,res-810,northeurope,6.01,1.44,8.65
+2025-05,acc-7305,sub-3,Kubernetes,rg-1,res-811,centralus,209.46,0.91,190.61
+2025-05,acc-9887,sub-5,Storage,rg-2,res-812,southeastasia,91.29,1.77,161.58
+2025-05,acc-6963,sub-1,Virtual Machines,rg-7,res-813,centralus,6.66,0.98,6.53
+2025-05,acc-3871,sub-5,Networking,rg-2,res-814,southeastasia,126.82,1.45,183.89
+2025-05,acc-4909,sub-5,Virtual Machines,rg-8,res-815,southeastasia,101.97,1.76,179.47
+2025-05,acc-6250,sub-3,SQL Database,rg-9,res-816,northeurope,36.58,0.63,23.05
+2025-05,acc-8412,sub-4,Kubernetes,rg-9,res-817,eastus,44.74,0.99,44.29
+2025-05,acc-5788,sub-4,Kubernetes,rg-6,res-818,eastus,25.46,0.46,11.71
+2025-05,acc-7400,sub-2,SQL Database,rg-2,res-819,eastus,2.82,0.41,1.16
+2025-05,acc-9131,sub-2,Storage,rg-9,res-820,eastus,20.41,0.66,13.47
+2025-05,acc-8764,sub-3,App Service,rg-8,res-821,eastus,81.19,0.65,52.77
+2025-05,acc-9513,sub-3,App Service,rg-10,res-822,centralus,0.23,1.35,0.31
+2025-05,acc-9686,sub-5,App Service,rg-8,res-823,centralus,20.29,1.18,23.94
+2025-05,acc-4715,sub-4,SQL Database,rg-5,res-824,eastus,25.39,0.38,9.65
+2025-05,acc-3634,sub-5,SQL Database,rg-3,res-825,westus,38.54,1.69,65.13
+2025-05,acc-3641,sub-2,Virtual Machines,rg-1,res-826,centralus,126.2,1.19,150.18
+2025-05,acc-4022,sub-2,Kubernetes,rg-1,res-827,centralus,21.26,1.96,41.67
+2025-05,acc-9845,sub-2,Kubernetes,rg-5,res-828,eastus,21.31,1.85,39.42
+2025-05,acc-8504,sub-3,Storage,rg-1,res-829,southeastasia,66.88,1.95,130.42
+2025-05,acc-8764,sub-3,Kubernetes,rg-3,res-830,southeastasia,30.09,1.48,44.53
+2025-05,acc-8847,sub-1,Storage,rg-9,res-831,eastus,12.72,0.69,8.78
+2025-05,acc-8306,sub-3,Virtual Machines,rg-6,res-832,eastus,30.11,1.26,37.94
+2025-05,acc-4639,sub-3,Storage,rg-1,res-833,eastus,7.59,1.12,8.5
+2025-05,acc-9385,sub-4,Storage,rg-8,res-834,centralus,9.7,1.25,12.12
+2025-05,acc-7513,sub-2,Networking,rg-7,res-835,centralus,34.49,0.83,28.63
+2025-05,acc-6756,sub-3,App Service,rg-9,res-836,eastus,27.14,0.51,13.84
+2025-05,acc-8249,sub-3,Storage,rg-7,res-837,northeurope,123.16,0.37,45.57
+2025-05,acc-3353,sub-2,SQL Database,rg-8,res-838,southeastasia,22.5,1.97,44.33
+2025-05,acc-2449,sub-1,App Service,rg-5,res-839,northeurope,43.45,0.43,18.68
+2025-05,acc-3243,sub-2,Storage,rg-7,res-840,centralus,50.02,1.15,57.52
+2025-05,acc-5979,sub-4,Kubernetes,rg-8,res-841,westus,0.66,0.15,0.1
+2025-05,acc-5917,sub-4,Virtual Machines,rg-5,res-842,northeurope,54.46,0.44,23.96
+2025-05,acc-1466,sub-1,SQL Database,rg-8,res-843,eastus,9.8,1.24,12.15
+2025-05,acc-8144,sub-3,Networking,rg-8,res-844,eastus,162.3,0.81,131.46
+2025-05,acc-5252,sub-2,Kubernetes,rg-1,res-845,westus,8.05,0.71,5.72
+2025-05,acc-3675,sub-1,SQL Database,rg-6,res-846,northeurope,26.78,1.31,35.08
+2025-05,acc-5778,sub-5,Networking,rg-2,res-847,southeastasia,4.46,0.47,2.1
+2025-05,acc-3738,sub-5,SQL Database,rg-6,res-848,centralus,288.4,0.62,178.81
+2025-05,acc-2570,sub-5,Kubernetes,rg-6,res-849,westus,34.88,0.12,4.19
+2025-05,acc-8944,sub-4,SQL Database,rg-3,res-850,eastus,45.24,0.51,23.07
+2025-05,acc-9612,sub-5,Networking,rg-9,res-851,eastus,3.47,0.89,3.09
+2025-05,acc-1284,sub-4,SQL Database,rg-5,res-852,centralus,69.31,0.36,24.95
+2025-05,acc-6604,sub-2,Networking,rg-5,res-853,eastus,11.78,1.51,17.79
+2025-05,acc-3332,sub-2,SQL Database,rg-3,res-854,westus,114.17,0.35,39.96
+2025-05,acc-2273,sub-1,App Service,rg-7,res-855,eastus,11.48,0.47,5.4
+2025-05,acc-1971,sub-4,Virtual Machines,rg-5,res-856,eastus,10.58,0.23,2.43
+2025-05,acc-3028,sub-5,Storage,rg-10,res-857,westus,1.86,0.45,0.84
+2025-05,acc-3384,sub-3,Kubernetes,rg-6,res-858,centralus,31.94,0.41,13.1
+2025-05,acc-4962,sub-5,Kubernetes,rg-2,res-859,eastus,41.6,1.66,69.06
+2025-05,acc-4138,sub-3,Storage,rg-9,res-860,eastus,3.4,1.95,6.63
+2025-05,acc-8777,sub-3,Networking,rg-10,res-861,westus,74.7,0.94,70.22
+2025-05,acc-7219,sub-4,Storage,rg-9,res-862,westus,30.19,0.87,26.27
+2025-05,acc-2807,sub-5,Storage,rg-8,res-863,centralus,37.16,1.44,53.51
+2025-05,acc-2347,sub-3,App Service,rg-2,res-864,northeurope,29.06,0.64,18.6
+2025-05,acc-8273,sub-2,Kubernetes,rg-7,res-865,centralus,25.6,1.97,50.43
+2025-05,acc-8793,sub-3,Storage,rg-1,res-866,northeurope,41.01,1.38,56.59
+2025-05,acc-2392,sub-1,Storage,rg-7,res-867,northeurope,8.44,1.42,11.98
+2025-05,acc-2060,sub-3,Storage,rg-6,res-868,westus,10.04,1.23,12.35
+2025-05,acc-7958,sub-4,SQL Database,rg-10,res-869,southeastasia,98.95,0.62,61.35
+2025-05,acc-8795,sub-5,App Service,rg-8,res-870,southeastasia,146.05,0.63,92.01
+2025-05,acc-5107,sub-4,App Service,rg-4,res-871,westus,23.37,0.16,3.74
+2025-05,acc-9161,sub-1,Storage,rg-7,res-872,southeastasia,15.79,1.39,21.95
+2025-05,acc-2578,sub-1,Networking,rg-9,res-873,northeurope,51.64,1.61,83.14
+2025-05,acc-9032,sub-5,SQL Database,rg-9,res-874,centralus,26.27,1.64,43.08
+2025-05,acc-1517,sub-4,Virtual Machines,rg-7,res-875,northeurope,1.29,0.7,0.9
+2025-05,acc-1589,sub-1,Storage,rg-9,res-876,centralus,8.49,1.78,15.11
+2025-05,acc-3203,sub-3,Networking,rg-7,res-877,northeurope,62.93,1.55,97.54
+2025-05,acc-9837,sub-5,App Service,rg-8,res-878,southeastasia,53.78,1.72,92.5
+2025-05,acc-5315,sub-4,Kubernetes,rg-7,res-879,southeastasia,1.37,1.39,1.9
+2025-05,acc-1461,sub-5,Virtual Machines,rg-3,res-880,centralus,12.55,0.76,9.54
+2025-05,acc-6591,sub-4,Virtual Machines,rg-7,res-881,centralus,13.14,1.98,26.02
+2025-05,acc-5001,sub-2,Storage,rg-5,res-882,southeastasia,55.72,0.26,14.49
+2025-05,acc-2875,sub-3,Storage,rg-1,res-883,southeastasia,1.0,0.72,0.72
+2025-05,acc-9433,sub-4,SQL Database,rg-1,res-884,northeurope,5.5,1.22,6.71
+2025-05,acc-7394,sub-3,Kubernetes,rg-2,res-885,northeurope,80.45,0.29,23.33
+2025-05,acc-9138,sub-5,Networking,rg-6,res-886,westus,9.83,1.27,12.48
+2025-05,acc-9142,sub-1,Kubernetes,rg-4,res-887,centralus,52.88,0.6,31.73
+2025-05,acc-4700,sub-5,Networking,rg-2,res-888,southeastasia,13.6,0.28,3.81
+2025-05,acc-9700,sub-4,App Service,rg-4,res-889,centralus,5.24,1.61,8.44
+2025-05,acc-5913,sub-4,Networking,rg-9,res-890,centralus,13.93,0.48,6.69
+2025-05,acc-9443,sub-4,Networking,rg-9,res-891,westus,64.05,1.77,113.37
+2025-05,acc-4056,sub-5,App Service,rg-4,res-892,northeurope,96.79,0.61,59.04
+2025-05,acc-8106,sub-5,Networking,rg-1,res-893,southeastasia,88.66,0.48,42.56
+2025-05,acc-3465,sub-3,App Service,rg-7,res-894,centralus,25.31,1.73,43.79
+2025-05,acc-7757,sub-3,SQL Database,rg-3,res-895,centralus,55.14,1.41,77.75
+2025-05,acc-2860,sub-2,Storage,rg-1,res-896,westus,11.47,1.61,18.47
+2025-05,acc-8145,sub-4,Networking,rg-1,res-897,westus,17.35,0.4,6.94
+2025-05,acc-5551,sub-5,Storage,rg-1,res-898,northeurope,113.33,1.59,180.19
+2025-05,acc-5882,sub-1,App Service,rg-6,res-899,eastus,0.65,0.85,0.55
+2025-05,acc-2833,sub-5,Networking,rg-9,res-900,eastus,4.47,1.09,4.87
+2025-05,acc-9133,sub-1,Storage,rg-10,res-901,eastus,11.65,1.57,18.29
+2025-05,acc-7388,sub-2,App Service,rg-4,res-902,westus,1.34,0.3,0.4
+2025-05,acc-7690,sub-3,Kubernetes,rg-1,res-903,northeurope,10.01,1.11,11.11
+2025-05,acc-9941,sub-4,App Service,rg-4,res-904,centralus,43.74,1.77,77.42
+2025-05,acc-7025,sub-3,Virtual Machines,rg-10,res-905,eastus,27.36,1.7,46.51
+2025-05,acc-5144,sub-5,App Service,rg-5,res-906,centralus,111.59,1.82,203.09
+2025-05,acc-4872,sub-4,App Service,rg-1,res-907,northeurope,85.03,1.86,158.16
+2025-05,acc-4857,sub-3,Storage,rg-3,res-908,northeurope,20.91,1.3,27.18
+2025-05,acc-5489,sub-1,App Service,rg-8,res-909,northeurope,15.02,1.86,27.94
+2025-05,acc-2644,sub-2,Networking,rg-5,res-910,southeastasia,23.88,0.23,5.49
+2025-05,acc-6353,sub-4,Networking,rg-1,res-911,eastus,44.62,1.32,58.9
+2025-05,acc-3229,sub-1,App Service,rg-4,res-912,centralus,15.6,0.7,10.92
+2025-05,acc-5089,sub-5,Networking,rg-3,res-913,southeastasia,48.93,1.4,68.5
+2025-05,acc-3187,sub-3,Storage,rg-10,res-914,centralus,26.33,1.62,42.65
+2025-05,acc-7022,sub-2,App Service,rg-7,res-915,southeastasia,40.15,0.53,21.28
+2025-05,acc-4747,sub-1,App Service,rg-4,res-916,centralus,28.65,1.43,40.97
+2025-05,acc-8027,sub-5,SQL Database,rg-3,res-917,eastus,17.44,1.92,33.48
+2025-05,acc-1231,sub-5,App Service,rg-8,res-918,northeurope,148.26,0.33,48.93
+2025-05,acc-5361,sub-3,Networking,rg-8,res-919,northeurope,72.11,0.35,25.24
+2025-05,acc-5636,sub-2,App Service,rg-3,res-920,northeurope,7.55,1.61,12.16
+2025-05,acc-4858,sub-5,App Service,rg-4,res-921,centralus,101.43,1.21,122.73
+2025-05,acc-1169,sub-4,Storage,rg-6,res-922,northeurope,33.42,1.41,47.12
+2025-05,acc-5198,sub-1,Virtual Machines,rg-9,res-923,eastus,112.48,0.2,22.5
+2025-05,acc-1745,sub-1,SQL Database,rg-9,res-924,southeastasia,80.44,0.82,65.96
+2025-05,acc-3166,sub-5,Virtual Machines,rg-10,res-925,westus,27.69,0.59,16.34
+2025-05,acc-8669,sub-2,Virtual Machines,rg-6,res-926,southeastasia,1.14,0.92,1.05
+2025-05,acc-1723,sub-2,App Service,rg-5,res-927,centralus,15.65,1.86,29.11
+2025-05,acc-5321,sub-5,SQL Database,rg-7,res-928,westus,39.0,0.7,27.3
+2025-05,acc-8208,sub-1,Storage,rg-3,res-929,eastus,50.18,0.54,27.1
+2025-05,acc-3679,sub-4,App Service,rg-2,res-930,northeurope,14.91,0.18,2.68
+2025-05,acc-8949,sub-4,App Service,rg-2,res-931,westus,7.5,0.33,2.48
+2025-05,acc-3959,sub-2,Networking,rg-9,res-932,centralus,90.07,1.17,105.38
+2025-05,acc-1067,sub-5,Kubernetes,rg-3,res-933,northeurope,208.03,1.85,384.86
+2025-05,acc-6384,sub-1,SQL Database,rg-2,res-934,northeurope,37.29,0.81,30.2
+2025-05,acc-1473,sub-1,App Service,rg-8,res-935,northeurope,9.42,1.29,12.15
+2025-05,acc-6397,sub-1,Networking,rg-10,res-936,northeurope,15.89,0.72,11.44
+2025-05,acc-3118,sub-2,Virtual Machines,rg-5,res-937,centralus,0.93,1.62,1.51
+2025-05,acc-7248,sub-1,App Service,rg-5,res-938,westus,122.84,0.56,68.79
+2025-05,acc-4411,sub-2,App Service,rg-7,res-939,centralus,6.26,1.33,8.33
+2025-05,acc-5891,sub-4,App Service,rg-5,res-940,southeastasia,42.96,0.35,15.04
+2025-05,acc-9399,sub-2,App Service,rg-8,res-941,northeurope,16.01,1.01,16.17
+2025-05,acc-2478,sub-4,SQL Database,rg-10,res-942,westus,40.39,0.92,37.16
+2025-05,acc-9410,sub-3,App Service,rg-4,res-943,westus,52.69,1.87,98.53
+2025-05,acc-2375,sub-3,App Service,rg-7,res-944,eastus,88.52,1.82,161.11
+2025-05,acc-3093,sub-3,Storage,rg-9,res-945,northeurope,11.56,0.66,7.63
+2025-05,acc-1738,sub-5,Virtual Machines,rg-9,res-946,northeurope,0.55,0.88,0.48
+2025-05,acc-5151,sub-3,SQL Database,rg-10,res-947,eastus,7.36,1.56,11.48
+2025-05,acc-3941,sub-2,App Service,rg-1,res-948,eastus,115.14,0.89,102.47
+2025-05,acc-8454,sub-4,Kubernetes,rg-5,res-949,centralus,103.53,1.94,200.85
+2025-05,acc-2281,sub-5,SQL Database,rg-2,res-950,northeurope,45.49,1.12,50.95
+2025-05,acc-1217,sub-2,Networking,rg-8,res-951,northeurope,45.88,1.41,64.69
+2025-05,acc-8974,sub-3,Kubernetes,rg-10,res-952,centralus,54.69,1.41,77.11
+2025-05,acc-5958,sub-1,Storage,rg-3,res-953,eastus,9.64,0.46,4.43
+2025-05,acc-1439,sub-2,App Service,rg-3,res-954,westus,122.91,0.93,114.31
+2025-05,acc-2410,sub-3,App Service,rg-3,res-955,northeurope,27.13,0.9,24.42
+2025-05,acc-8295,sub-4,App Service,rg-1,res-956,northeurope,24.16,1.21,29.23
+2025-05,acc-7418,sub-1,SQL Database,rg-1,res-957,eastus,36.59,1.3,47.57
+2025-05,acc-9121,sub-5,Kubernetes,rg-9,res-958,centralus,2.41,0.17,0.41
+2025-05,acc-8993,sub-2,Networking,rg-1,res-959,southeastasia,9.09,0.14,1.27
+2025-05,acc-2040,sub-3,Networking,rg-7,res-960,northeurope,66.98,0.32,21.43
+2025-05,acc-8345,sub-4,Virtual Machines,rg-3,res-961,centralus,4.32,1.48,6.39
+2025-05,acc-4802,sub-5,Storage,rg-10,res-962,centralus,46.21,1.85,85.49
+2025-05,acc-3148,sub-3,Networking,rg-7,res-963,northeurope,14.08,1.68,23.65
+2025-05,acc-8738,sub-2,Kubernetes,rg-4,res-964,centralus,24.66,1.41,34.77
+2025-05,acc-3115,sub-2,Storage,rg-3,res-965,southeastasia,17.03,1.04,17.71
+2025-05,acc-4845,sub-2,Kubernetes,rg-1,res-966,eastus,21.98,0.78,17.14
+2025-05,acc-3862,sub-5,Virtual Machines,rg-2,res-967,centralus,63.48,0.92,58.4
+2025-05,acc-4671,sub-4,SQL Database,rg-6,res-968,centralus,17.63,1.56,27.5
+2025-05,acc-9444,sub-5,Networking,rg-2,res-969,eastus,41.78,1.86,77.71
+2025-05,acc-2734,sub-5,Kubernetes,rg-2,res-970,southeastasia,32.32,0.18,5.82
+2025-05,acc-4365,sub-3,Storage,rg-5,res-971,northeurope,54.48,1.55,84.44
+2025-05,acc-3527,sub-3,SQL Database,rg-3,res-972,eastus,138.1,1.71,236.15
+2025-05,acc-5019,sub-4,SQL Database,rg-5,res-973,southeastasia,65.95,0.43,28.36
+2025-05,acc-6908,sub-2,Storage,rg-9,res-974,northeurope,12.1,1.6,19.36
+2025-05,acc-7706,sub-4,Kubernetes,rg-6,res-975,eastus,1.58,0.94,1.49
+2025-05,acc-2140,sub-1,SQL Database,rg-6,res-976,northeurope,15.21,1.97,29.96
+2025-05,acc-7443,sub-1,Networking,rg-3,res-977,southeastasia,45.2,0.21,9.49
+2025-05,acc-5845,sub-4,App Service,rg-9,res-978,centralus,2.64,1.47,3.88
+2025-05,acc-5583,sub-5,Kubernetes,rg-3,res-979,northeurope,34.3,0.95,32.58
+2025-05,acc-8244,sub-3,Networking,rg-7,res-980,westus,45.42,1.77,80.39
+2025-05,acc-6480,sub-4,Networking,rg-3,res-981,southeastasia,20.34,1.98,40.27
+2025-05,acc-9383,sub-5,SQL Database,rg-9,res-982,centralus,73.68,1.54,113.47
+2025-05,acc-9846,sub-5,SQL Database,rg-4,res-983,centralus,5.64,1.48,8.35
+2025-05,acc-7110,sub-3,Networking,rg-9,res-984,centralus,3.91,0.34,1.33
+2025-05,acc-5881,sub-5,Networking,rg-1,res-985,northeurope,65.13,0.74,48.2
+2025-05,acc-9737,sub-5,Storage,rg-6,res-986,centralus,34.21,0.64,21.89
+2025-05,acc-7187,sub-5,Networking,rg-4,res-987,eastus,58.3,0.72,41.98
+2025-05,acc-8443,sub-1,Storage,rg-7,res-988,northeurope,28.53,0.26,7.42
+2025-05,acc-8802,sub-2,App Service,rg-2,res-989,centralus,14.14,1.39,19.65
+2025-05,acc-9502,sub-4,SQL Database,rg-10,res-990,northeurope,85.49,1.31,111.99
+2025-05,acc-7830,sub-2,Storage,rg-9,res-991,westus,80.33,1.02,81.94
+2025-05,acc-9669,sub-1,Networking,rg-4,res-992,northeurope,59.32,1.0,59.32
+2025-05,acc-7051,sub-1,Kubernetes,rg-7,res-993,eastus,15.88,0.33,5.24
+2025-05,acc-9565,sub-2,Virtual Machines,rg-6,res-994,centralus,44.61,1.98,88.33
+2025-05,acc-1458,sub-2,Storage,rg-10,res-995,northeurope,22.39,0.19,4.25
+2025-05,acc-3999,sub-4,Virtual Machines,rg-2,res-996,southeastasia,4.8,0.76,3.65
+2025-05,acc-6074,sub-5,App Service,rg-6,res-997,northeurope,124.63,1.0,124.63
+2025-05,acc-3269,sub-5,Networking,rg-8,res-998,northeurope,7.36,1.37,10.08
+2025-05,acc-2463,sub-5,Networking,rg-10,res-999,northeurope,150.02,0.84,126.02
+2025-05,acc-1750,sub-4,Networking,rg-5,res-1000,eastus,29.53,1.75,51.68
+2025-06,acc-6060,sub-5,Networking,rg-2,res-1001,southeastasia,10.24,0.26,2.66
+2025-06,acc-1866,sub-5,Kubernetes,rg-4,res-1002,northeurope,39.03,1.06,41.37
+2025-06,acc-3944,sub-1,SQL Database,rg-4,res-1003,westus,103.16,1.68,173.31
+2025-06,acc-9741,sub-5,SQL Database,rg-7,res-1004,southeastasia,65.88,0.19,12.52
+2025-06,acc-3957,sub-4,Virtual Machines,rg-9,res-1005,centralus,82.14,0.83,68.18
+2025-06,acc-9876,sub-2,SQL Database,rg-3,res-1006,westus,53.76,0.59,31.72
+2025-06,acc-7672,sub-2,Virtual Machines,rg-10,res-1007,centralus,58.93,0.44,25.93
+2025-06,acc-7388,sub-1,SQL Database,rg-3,res-1008,northeurope,94.59,1.8,170.26
+2025-06,acc-1849,sub-2,Storage,rg-10,res-1009,southeastasia,14.36,0.55,7.9
+2025-06,acc-2885,sub-3,Virtual Machines,rg-6,res-1010,northeurope,33.61,1.15,38.65
+2025-06,acc-7676,sub-2,Virtual Machines,rg-5,res-1011,southeastasia,12.5,1.93,24.12
+2025-06,acc-3057,sub-3,Kubernetes,rg-7,res-1012,northeurope,219.78,0.26,57.14
+2025-06,acc-3332,sub-3,Kubernetes,rg-3,res-1013,westus,144.17,1.12,161.47
+2025-06,acc-1684,sub-1,App Service,rg-10,res-1014,centralus,2.01,1.34,2.69
+2025-06,acc-8900,sub-3,Kubernetes,rg-5,res-1015,northeurope,61.14,2.0,122.28
+2025-06,acc-9361,sub-3,Virtual Machines,rg-3,res-1016,southeastasia,129.68,1.17,151.73
+2025-06,acc-3014,sub-2,Networking,rg-9,res-1017,centralus,9.96,1.77,17.63
+2025-06,acc-6215,sub-3,Networking,rg-5,res-1018,northeurope,41.96,0.62,26.02
+2025-06,acc-4450,sub-4,Kubernetes,rg-6,res-1019,eastus,123.54,1.84,227.31
+2025-06,acc-8807,sub-1,Virtual Machines,rg-3,res-1020,northeurope,1.73,1.16,2.01
+2025-06,acc-7435,sub-5,Virtual Machines,rg-2,res-1021,southeastasia,59.77,0.16,9.56
+2025-06,acc-6783,sub-4,Kubernetes,rg-6,res-1022,northeurope,17.64,0.44,7.76
+2025-06,acc-8580,sub-3,Storage,rg-8,res-1023,eastus,129.11,0.52,67.14
+2025-06,acc-4137,sub-1,Kubernetes,rg-5,res-1024,westus,177.12,0.55,97.42
+2025-06,acc-5599,sub-4,Networking,rg-10,res-1025,westus,144.36,0.11,15.88
+2025-06,acc-5544,sub-5,Kubernetes,rg-8,res-1026,westus,32.14,1.15,36.96
+2025-06,acc-3875,sub-1,Kubernetes,rg-3,res-1027,eastus,99.04,0.34,33.67
+2025-06,acc-5494,sub-2,Networking,rg-1,res-1028,southeastasia,93.07,1.27,118.2
+2025-06,acc-1032,sub-4,Networking,rg-1,res-1029,centralus,19.22,0.92,17.68
+2025-06,acc-9491,sub-4,App Service,rg-6,res-1030,southeastasia,88.28,1.54,135.95
+2025-06,acc-5553,sub-4,Kubernetes,rg-8,res-1031,centralus,1.89,0.11,0.21
+2025-06,acc-1415,sub-2,Networking,rg-7,res-1032,eastus,45.35,1.84,83.44
+2025-06,acc-6092,sub-1,Networking,rg-2,res-1033,eastus,13.07,1.01,13.2
+2025-06,acc-5102,sub-2,Virtual Machines,rg-8,res-1034,westus,6.42,1.92,12.33
+2025-06,acc-4878,sub-1,Kubernetes,rg-10,res-1035,northeurope,4.0,1.55,6.2
+2025-06,acc-3045,sub-1,Virtual Machines,rg-1,res-1036,northeurope,59.58,0.7,41.71
+2025-06,acc-2015,sub-4,Virtual Machines,rg-5,res-1037,southeastasia,20.77,1.29,26.79
+2025-06,acc-1855,sub-3,App Service,rg-7,res-1038,eastus,64.51,1.27,81.93
+2025-06,acc-1173,sub-4,App Service,rg-8,res-1039,northeurope,3.38,1.77,5.98
+2025-06,acc-1425,sub-4,Kubernetes,rg-6,res-1040,southeastasia,18.94,0.47,8.9
+2025-06,acc-2106,sub-5,Storage,rg-10,res-1041,westus,38.77,1.31,50.79
+2025-06,acc-8887,sub-5,App Service,rg-3,res-1042,westus,78.2,0.36,28.15
+2025-06,acc-6106,sub-5,App Service,rg-9,res-1043,centralus,19.19,0.69,13.24
+2025-06,acc-8692,sub-3,Kubernetes,rg-6,res-1044,centralus,49.16,0.8,39.33
+2025-06,acc-3369,sub-1,Storage,rg-9,res-1045,southeastasia,108.57,1.73,187.83
+2025-06,acc-4282,sub-2,Virtual Machines,rg-6,res-1046,westus,47.84,1.37,65.54
+2025-06,acc-6425,sub-5,Kubernetes,rg-6,res-1047,southeastasia,13.26,0.67,8.88
+2025-06,acc-8443,sub-1,App Service,rg-4,res-1048,eastus,1.24,1.31,1.62
+2025-06,acc-4492,sub-2,App Service,rg-6,res-1049,northeurope,102.05,0.49,50.0
+2025-06,acc-1162,sub-1,SQL Database,rg-1,res-1050,southeastasia,1.07,0.32,0.34
+2025-06,acc-6896,sub-1,Virtual Machines,rg-4,res-1051,westus,103.85,0.64,66.46
+2025-06,acc-6567,sub-5,Storage,rg-3,res-1052,westus,37.64,0.14,5.27
+2025-06,acc-3248,sub-4,Networking,rg-2,res-1053,centralus,139.9,1.88,263.01
+2025-06,acc-7056,sub-3,Networking,rg-3,res-1054,southeastasia,80.17,1.96,157.13
+2025-06,acc-2941,sub-2,Storage,rg-4,res-1055,westus,309.11,1.11,343.11
+2025-06,acc-8037,sub-2,Virtual Machines,rg-10,res-1056,southeastasia,21.59,0.46,9.93
+2025-06,acc-6368,sub-2,Virtual Machines,rg-5,res-1057,westus,72.88,1.72,125.35
+2025-06,acc-2333,sub-4,Networking,rg-10,res-1058,eastus,25.7,0.42,10.79
+2025-06,acc-7131,sub-4,Kubernetes,rg-8,res-1059,westus,32.68,0.71,23.2
+2025-06,acc-9106,sub-4,SQL Database,rg-10,res-1060,northeurope,49.38,1.31,64.69
+2025-06,acc-4394,sub-2,Storage,rg-8,res-1061,westus,103.45,0.85,87.93
+2025-06,acc-3575,sub-3,SQL Database,rg-9,res-1062,eastus,207.02,0.36,74.53
+2025-06,acc-9500,sub-3,Storage,rg-10,res-1063,eastus,73.11,0.98,71.65
+2025-06,acc-8391,sub-4,App Service,rg-7,res-1064,centralus,27.04,1.63,44.08
+2025-06,acc-1404,sub-2,App Service,rg-4,res-1065,centralus,27.35,1.33,36.38
+2025-06,acc-9220,sub-5,Kubernetes,rg-2,res-1066,centralus,66.89,1.86,124.42
+2025-06,acc-6902,sub-1,Kubernetes,rg-4,res-1067,centralus,13.64,0.47,6.41
+2025-06,acc-5496,sub-2,Networking,rg-10,res-1068,westus,5.85,2.0,11.7
+2025-06,acc-5278,sub-1,SQL Database,rg-5,res-1069,centralus,21.9,1.59,34.82
+2025-06,acc-1194,sub-4,Networking,rg-9,res-1070,westus,16.93,1.74,29.46
+2025-06,acc-8773,sub-2,Kubernetes,rg-10,res-1071,southeastasia,17.57,1.54,27.06
+2025-06,acc-2406,sub-3,Storage,rg-7,res-1072,northeurope,13.3,0.5,6.65
+2025-06,acc-7139,sub-2,Kubernetes,rg-3,res-1073,centralus,2.15,1.89,4.06
+2025-06,acc-6567,sub-2,App Service,rg-7,res-1074,northeurope,0.9,1.55,1.4
+2025-06,acc-6342,sub-5,Virtual Machines,rg-10,res-1075,eastus,220.0,1.85,407.0
+2025-06,acc-7404,sub-4,Storage,rg-7,res-1076,eastus,27.91,1.12,31.26
+2025-06,acc-6387,sub-5,App Service,rg-5,res-1077,eastus,24.25,0.43,10.43
+2025-06,acc-1525,sub-5,App Service,rg-1,res-1078,westus,56.92,0.48,27.32
+2025-06,acc-4818,sub-3,Networking,rg-9,res-1079,eastus,12.31,0.96,11.82
+2025-06,acc-3815,sub-3,App Service,rg-7,res-1080,westus,149.75,1.98,296.5
+2025-06,acc-8835,sub-1,App Service,rg-4,res-1081,westus,77.17,1.75,135.05
+2025-06,acc-3601,sub-5,Kubernetes,rg-5,res-1082,southeastasia,4.68,0.49,2.29
+2025-06,acc-5512,sub-2,Virtual Machines,rg-3,res-1083,northeurope,27.03,0.22,5.95
+2025-06,acc-9615,sub-3,Kubernetes,rg-8,res-1084,northeurope,105.65,0.98,103.54
+2025-06,acc-5717,sub-4,SQL Database,rg-5,res-1085,northeurope,144.78,1.26,182.42
+2025-06,acc-3942,sub-5,Networking,rg-7,res-1086,northeurope,31.5,0.83,26.14
+2025-06,acc-2565,sub-4,Networking,rg-1,res-1087,westus,47.52,1.78,84.59
+2025-06,acc-5782,sub-1,Networking,rg-4,res-1088,northeurope,9.14,0.88,8.04
+2025-06,acc-2253,sub-1,Kubernetes,rg-6,res-1089,northeurope,236.47,0.96,227.01
+2025-06,acc-1731,sub-4,Virtual Machines,rg-2,res-1090,northeurope,13.18,0.82,10.81
+2025-06,acc-7499,sub-1,Virtual Machines,rg-5,res-1091,eastus,143.0,1.45,207.35
+2025-06,acc-8942,sub-4,Virtual Machines,rg-2,res-1092,southeastasia,52.44,1.35,70.79
+2025-06,acc-8713,sub-3,Storage,rg-3,res-1093,eastus,46.79,1.25,58.49
+2025-06,acc-9759,sub-4,Storage,rg-2,res-1094,eastus,35.94,1.39,49.96
+2025-06,acc-3915,sub-2,Networking,rg-1,res-1095,southeastasia,13.11,0.51,6.69
+2025-06,acc-2684,sub-4,Networking,rg-5,res-1096,northeurope,9.71,0.2,1.94
+2025-06,acc-4305,sub-2,SQL Database,rg-4,res-1097,westus,12.45,0.27,3.36
+2025-06,acc-6523,sub-2,Networking,rg-2,res-1098,westus,10.32,1.92,19.81
+2025-06,acc-3736,sub-1,App Service,rg-9,res-1099,eastus,75.61,1.65,124.76
+2025-06,acc-4393,sub-5,App Service,rg-7,res-1100,eastus,21.55,0.54,11.64
+2025-06,acc-3844,sub-1,App Service,rg-6,res-1101,eastus,2.98,0.84,2.5
+2025-06,acc-5562,sub-5,SQL Database,rg-1,res-1102,eastus,173.85,1.78,309.45
+2025-06,acc-9185,sub-1,Networking,rg-9,res-1103,southeastasia,107.62,0.43,46.28
+2025-06,acc-7366,sub-2,SQL Database,rg-3,res-1104,centralus,131.38,1.96,257.5
+2025-06,acc-6490,sub-1,Kubernetes,rg-10,res-1105,northeurope,264.0,0.83,219.12
+2025-06,acc-9248,sub-5,Networking,rg-1,res-1106,westus,9.55,0.14,1.34
+2025-06,acc-8020,sub-2,Kubernetes,rg-2,res-1107,eastus,25.23,0.36,9.08
+2025-06,acc-3484,sub-4,Storage,rg-1,res-1108,westus,70.99,1.85,131.33
+2025-06,acc-3199,sub-3,SQL Database,rg-1,res-1109,southeastasia,59.54,1.6,95.26
+2025-06,acc-1388,sub-2,Networking,rg-6,res-1110,centralus,8.36,0.56,4.68
+2025-06,acc-4644,sub-5,App Service,rg-9,res-1111,centralus,84.6,0.45,38.07
+2025-06,acc-9055,sub-1,Storage,rg-1,res-1112,westus,12.71,1.88,23.89
+2025-06,acc-9992,sub-2,Storage,rg-9,res-1113,eastus,12.67,0.91,11.53
+2025-06,acc-4236,sub-2,App Service,rg-3,res-1114,southeastasia,38.5,0.57,21.94
+2025-06,acc-4299,sub-3,App Service,rg-2,res-1115,centralus,44.94,0.86,38.65
+2025-06,acc-7925,sub-5,Kubernetes,rg-7,res-1116,westus,43.39,1.66,72.03
+2025-06,acc-8002,sub-1,SQL Database,rg-10,res-1117,southeastasia,4.8,0.39,1.87
+2025-06,acc-7233,sub-4,SQL Database,rg-8,res-1118,centralus,104.97,0.81,85.03
+2025-06,acc-6459,sub-2,Networking,rg-8,res-1119,westus,15.44,0.39,6.02
+2025-06,acc-9203,sub-3,App Service,rg-7,res-1120,northeurope,6.94,1.89,13.12
+2025-06,acc-9020,sub-3,Networking,rg-10,res-1121,eastus,109.8,0.88,96.62
+2025-06,acc-3660,sub-2,App Service,rg-5,res-1122,centralus,155.78,1.07,166.68
+2025-06,acc-1945,sub-4,App Service,rg-4,res-1123,westus,99.07,1.01,100.06
+2025-06,acc-3422,sub-3,Kubernetes,rg-8,res-1124,westus,82.91,0.58,48.09
+2025-06,acc-1202,sub-1,Virtual Machines,rg-7,res-1125,northeurope,53.25,1.44,76.68
+2025-06,acc-7929,sub-2,App Service,rg-5,res-1126,centralus,40.02,1.05,42.02
+2025-06,acc-6045,sub-4,Networking,rg-2,res-1127,eastus,4.55,1.31,5.96
+2025-06,acc-4432,sub-4,Networking,rg-5,res-1128,eastus,26.25,1.98,51.98
+2025-06,acc-2144,sub-4,Kubernetes,rg-7,res-1129,centralus,23.32,1.49,34.75
+2025-06,acc-4053,sub-2,Storage,rg-8,res-1130,westus,15.04,1.05,15.79
+2025-06,acc-4482,sub-2,Storage,rg-1,res-1131,westus,64.26,1.64,105.39
+2025-06,acc-8220,sub-5,Virtual Machines,rg-3,res-1132,eastus,34.25,0.66,22.61
+2025-06,acc-2052,sub-3,Virtual Machines,rg-10,res-1133,westus,4.23,1.01,4.27
+2025-06,acc-2000,sub-3,Virtual Machines,rg-10,res-1134,eastus,12.43,0.28,3.48
+2025-06,acc-9520,sub-3,App Service,rg-8,res-1135,centralus,57.48,1.25,71.85
+2025-06,acc-6164,sub-2,SQL Database,rg-7,res-1136,northeurope,3.96,1.26,4.99
+2025-06,acc-1050,sub-4,Networking,rg-7,res-1137,westus,95.26,0.15,14.29
+2025-06,acc-5072,sub-3,App Service,rg-10,res-1138,northeurope,34.17,1.08,36.9
+2025-06,acc-6278,sub-1,Networking,rg-6,res-1139,eastus,32.75,1.94,63.53
+2025-06,acc-4826,sub-5,App Service,rg-7,res-1140,southeastasia,44.87,1.61,72.24
+2025-06,acc-2645,sub-4,SQL Database,rg-10,res-1141,westus,87.06,1.45,126.24
+2025-06,acc-1520,sub-2,App Service,rg-2,res-1142,centralus,21.37,1.68,35.9
+2025-06,acc-8311,sub-1,App Service,rg-9,res-1143,westus,56.66,0.56,31.73
+2025-06,acc-2728,sub-4,Networking,rg-1,res-1144,westus,41.7,1.87,77.98
+2025-06,acc-4610,sub-3,Networking,rg-8,res-1145,eastus,15.53,1.36,21.12
+2025-06,acc-2481,sub-3,Storage,rg-10,res-1146,southeastasia,105.45,0.22,23.2
+2025-06,acc-8159,sub-2,Storage,rg-5,res-1147,eastus,79.83,0.65,51.89
+2025-06,acc-4082,sub-1,Kubernetes,rg-6,res-1148,westus,53.71,1.72,92.38
+2025-06,acc-6092,sub-1,Kubernetes,rg-9,res-1149,westus,95.05,1.71,162.54
+2025-06,acc-3069,sub-5,Networking,rg-10,res-1150,southeastasia,100.98,0.52,52.51
+2025-06,acc-8546,sub-3,Storage,rg-5,res-1151,westus,61.61,1.05,64.69
+2025-06,acc-5643,sub-2,Networking,rg-1,res-1152,southeastasia,90.7,0.71,64.4
+2025-06,acc-5480,sub-5,App Service,rg-4,res-1153,northeurope,59.78,0.65,38.86
+2025-06,acc-3501,sub-2,Networking,rg-4,res-1154,eastus,56.99,1.85,105.43
+2025-06,acc-5900,sub-2,Virtual Machines,rg-9,res-1155,northeurope,48.2,0.74,35.67
+2025-06,acc-7412,sub-4,Virtual Machines,rg-9,res-1156,centralus,69.86,0.64,44.71
+2025-06,acc-7451,sub-1,Storage,rg-6,res-1157,southeastasia,8.63,1.75,15.1
+2025-06,acc-8496,sub-2,Kubernetes,rg-3,res-1158,northeurope,106.38,1.42,151.06
+2025-06,acc-4573,sub-2,Networking,rg-1,res-1159,centralus,102.73,1.48,152.04
+2025-06,acc-7169,sub-4,Networking,rg-3,res-1160,eastus,1.48,0.28,0.41
+2025-06,acc-2922,sub-5,Networking,rg-6,res-1161,southeastasia,87.38,0.92,80.39
+2025-06,acc-5014,sub-1,Virtual Machines,rg-4,res-1162,northeurope,6.9,1.03,7.11
+2025-06,acc-7150,sub-1,App Service,rg-7,res-1163,centralus,20.41,1.3,26.53
+2025-06,acc-2966,sub-1,Virtual Machines,rg-2,res-1164,northeurope,68.03,1.32,89.8
+2025-06,acc-8856,sub-3,Networking,rg-2,res-1165,southeastasia,8.76,0.44,3.85
+2025-06,acc-5888,sub-5,Storage,rg-2,res-1166,centralus,85.18,0.22,18.74
+2025-06,acc-1323,sub-4,Kubernetes,rg-9,res-1167,southeastasia,89.23,1.03,91.91
+2025-06,acc-3033,sub-2,Networking,rg-2,res-1168,westus,35.41,1.74,61.61
+2025-06,acc-8327,sub-3,Virtual Machines,rg-1,res-1169,westus,0.32,1.19,0.38
+2025-06,acc-5206,sub-1,Virtual Machines,rg-2,res-1170,southeastasia,16.92,0.67,11.34
+2025-06,acc-1001,sub-2,SQL Database,rg-1,res-1171,southeastasia,47.98,1.82,87.32
+2025-06,acc-8289,sub-2,Kubernetes,rg-8,res-1172,centralus,198.66,1.09,216.54
+2025-06,acc-9365,sub-2,Networking,rg-2,res-1173,eastus,49.96,0.55,27.48
+2025-06,acc-4526,sub-2,Kubernetes,rg-9,res-1174,westus,15.04,1.22,18.35
+2025-06,acc-7914,sub-1,Kubernetes,rg-5,res-1175,centralus,50.26,0.83,41.72
+2025-06,acc-2364,sub-3,Networking,rg-7,res-1176,westus,38.82,1.12,43.48
+2025-06,acc-4156,sub-3,Kubernetes,rg-9,res-1177,southeastasia,75.67,0.41,31.02
+2025-06,acc-7208,sub-1,Kubernetes,rg-4,res-1178,eastus,5.66,0.61,3.45
+2025-06,acc-7664,sub-1,SQL Database,rg-2,res-1179,centralus,71.57,1.83,130.97
+2025-06,acc-5483,sub-1,Virtual Machines,rg-7,res-1180,westus,38.96,0.82,31.95
+2025-06,acc-9625,sub-3,Kubernetes,rg-8,res-1181,eastus,164.83,1.11,182.96
+2025-06,acc-5440,sub-5,Virtual Machines,rg-1,res-1182,westus,20.92,0.7,14.64
+2025-06,acc-9711,sub-5,Kubernetes,rg-7,res-1183,northeurope,50.07,1.23,61.59
+2025-06,acc-3547,sub-2,Storage,rg-7,res-1184,southeastasia,134.43,1.5,201.65
+2025-06,acc-5081,sub-5,App Service,rg-8,res-1185,westus,5.41,0.93,5.03
+2025-06,acc-5699,sub-3,App Service,rg-9,res-1186,westus,138.41,0.68,94.12
+2025-06,acc-6123,sub-1,Networking,rg-2,res-1187,eastus,58.22,1.49,86.75
+2025-06,acc-1940,sub-1,Networking,rg-5,res-1188,southeastasia,3.51,1.87,6.56
+2025-06,acc-3235,sub-4,App Service,rg-9,res-1189,southeastasia,17.9,1.43,25.6
+2025-06,acc-4115,sub-1,Networking,rg-7,res-1190,southeastasia,61.58,1.52,93.6
+2025-06,acc-1693,sub-5,App Service,rg-3,res-1191,southeastasia,3.49,1.82,6.35
+2025-06,acc-3184,sub-5,SQL Database,rg-1,res-1192,northeurope,43.63,1.04,45.38
+2025-06,acc-6537,sub-2,Kubernetes,rg-2,res-1193,centralus,21.22,0.67,14.22
+2025-06,acc-1036,sub-5,App Service,rg-4,res-1194,centralus,48.5,1.87,90.7
+2025-06,acc-8586,sub-5,App Service,rg-1,res-1195,centralus,2.34,0.11,0.26
+2025-06,acc-6798,sub-1,Virtual Machines,rg-6,res-1196,westus,102.61,0.86,88.24
+2025-06,acc-9061,sub-2,Virtual Machines,rg-9,res-1197,southeastasia,181.51,1.81,328.53
+2025-06,acc-1113,sub-2,Networking,rg-5,res-1198,westus,173.49,0.99,171.76
+2025-06,acc-8017,sub-2,Kubernetes,rg-5,res-1199,eastus,69.25,1.98,137.12
+2025-06,acc-3291,sub-3,Networking,rg-7,res-1200,eastus,6.97,0.78,5.44
