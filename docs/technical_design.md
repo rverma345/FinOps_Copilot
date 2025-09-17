@@ -1,59 +1,120 @@
-# AI Cost & Insights Copilot - Technical Design Document
+# Technical Design – AI Cost & Insights Copilot
 
 ## 1. Architecture
 
-The application is built using a microservices-like architecture. A **FastAPI** backend serves as the core API, which handles data retrieval, KPI calculations, and the RAG pipeline. A **Streamlit** UI provides a simple, interactive frontend for the user. The application's data is stored in a **SQLite** database for persistence and a **ChromaDB** vector store for the RAG pipeline.
+The system is built as a **modular AI-native analytics app** with three main layers:  
 
+- **Data Layer**  
+  - Stores pre-processed billing and resource metadata in a **SQLite warehouse (`warehouse.db`)**.  
+  - Vector store (Chroma) persists embeddings for RAG queries.  
+
+- **Application Layer**  
+  - **FastAPI** service provides APIs for KPIs, recommendations, and Q&A.  
+  - **Analytics module** computes KPIs (monthly cost trends, service breakdowns, anomalies).  
+  - **AI module** implements RAG using embeddings + Chroma vector DB for natural language queries.  
+  - **Recommendation engine** detects savings opportunities (e.g., idle resources, missing tags).  
+
+- **Presentation Layer**  
+  - **Streamlit UI** offers KPI dashboards and a chat interface to interact with the AI Copilot.  
+  - Charts and tables are dynamically generated for numeric/analytical queries.  
+
+### Architecture Diagram
+
+```
+                ┌───────────────────────────┐
+                │        Streamlit UI       │
+                │ (KPI view + Chat interface)│
+                └─────────────┬─────────────┘
+                              │ REST calls
+                              ▼
+                ┌───────────────────────────┐
+                │         FastAPI API        │
+                │  /kpi  /ask  /recommend    │
+                └─────────────┬─────────────┘
+             ┌────────────────┼─────────────────┐
+             ▼                ▼                 ▼
+   ┌────────────────┐  ┌───────────────┐  ┌──────────────┐
+   │ Analytics (KPIs)│  │ AI (RAG Q&A) │  │ Recommendations│
+   └───────┬─────────┘  └──────┬────────┘  └──────┬───────┘
+           │                   │                  │
+           ▼                   ▼                  ▼
+   ┌──────────────┐    ┌───────────────┐  ┌──────────────┐
+   │ SQLite (DB)  │    │ Chroma Vector │  │ Heuristic     │
+   │ billing + res│    │ Store         │  │ Rules Engine  │
+   └──────────────┘    └───────────────┘  └──────────────┘
+```
+
+---
 
 ## 2. Data Model
 
-The data model is designed to be simple and extensible.
-* **`billing` table**: Stores cloud usage and cost data.
-    -   `invoice_month` (TEXT): The month and year of the invoice (e.g., '2023-05').
-    -   `account_id` (TEXT): The cloud account identifier.
-    -   `service` (TEXT): The cloud service (e.g., 'Amazon EC2').
-    -   `resource_group` (TEXT): A logical group for resources.
-    -   `resource_id` (TEXT): A unique identifier for the resource.
-    -   `usage_qty` (REAL): The amount of resource usage.
-    -   `unit_cost` (REAL): The cost per unit of usage.
-    -   `cost` (REAL): The total cost for the resource (`usage_qty` * `unit_cost`).
-* **`resources` table**: Stores resource metadata for enhanced context.
-    -   `resource_id` (TEXT): A unique identifier for the resource.
-    -   `owner` (TEXT): The email or name of the resource owner.
-    -   `env` (TEXT): The environment (e.g., 'prod', 'dev', 'staging').
-    -   `tags_json` (TEXT): A JSON string of key-value tags.
+### Database schema (SQLite)
 
-## 3. Technology Stack
+- **billing**  
+  - `invoice_month` (TEXT)  
+  - `account_id` (TEXT)  
+  - `subscription` (TEXT)  
+  - `service` (TEXT)  
+  - `resource_group` (TEXT)  
+  - `resource_id` (TEXT)  
+  - `region` (TEXT)  
+  - `usage_qty` (REAL)  
+  - `unit_cost` (REAL)  
+  - `cost` (REAL)  
 
--   **Backend**: FastAPI
--   **Database**: SQLite
--   **Vector Store**: ChromaDB
--   **LLM**: OpenAI GPT-4
--   **UI**: Streamlit
--   **Containerization**: Docker
+- **resources**  
+  - `resource_id` (TEXT, PK)  
+  - `owner` (TEXT)  
+  - `env` (TEXT)  
+  - `tags_json` (TEXT/JSON)  
 
-## 4. Key Design Decisions
+### Vector Store (Chroma)
 
-1.  **SQLite for Simplicity**: Chosen for rapid prototyping and local development due to its file-based nature. This avoids the complexity of setting up a separate database server.
-2.  **ChromaDB for RAG**: Selected for its ease of setup and robust integration with LangChain. It is well-suited for a local, file-based vector store.
-3.  **RAG Hybrid Context**: The RAG pipeline combines two distinct data sources for comprehensive answers: structured data (synthetic billing/resources from SQLite) and unstructured data (markdown reference files).
-4.  **Recommendation Rule**: The **idle/underutilized resources** rule was chosen for its direct impact on cost savings and clear, heuristic-based logic.
+- Embeddings for **billing data summaries** and **FinOps tips docs**.  
+- Supports retrieval for RAG Q&A queries.  
 
-## 5. RAG Prompting Strategy
+---
 
-The LLM is guided using a structured prompt with a few-shot learning approach.
--   **System Prompt**: The prompt defines the AI's role as a FinOps assistant, its primary function of answering questions based on context, and its constraints.
--   **Few-shot Examples**: The prompt includes examples for three key scenarios:
-    -   **KPI Request**: Shows the model how to return a function name (e.g., `kpis.six_month_trend`) instead of attempting to calculate the value itself.
-    -   **Recommendation Request**: Directs the model to return the name of the recommendations function and a brief explanation of its purpose.
-    -   **General Q&A**: Illustrates how to answer standard questions using the provided context.
--   **Fallback Path**: If the LLM cannot find an answer in the provided context, the prompt instructs it to state it cannot answer the question and suggests checking the data.
+## 3. Trade-offs
 
-## 6. Risks & Mitigation
+- **SQLite vs Postgres**  
+  - Chose SQLite for simplicity and portability (runs locally without setup).  
+  - Trade-off: limited concurrency, but acceptable for single-user prototype.  
 
-| Risk | Mitigation Strategy |
-| :--- | :--- |
-| **Data Quality Issues** | Implement data validation rules at the ingestion stage to check for null values, negative costs, and duplicate resource IDs. |
-| **LLM Costs** | Use smaller, more cost-effective models like `text-embedding-3-small` for embeddings. Implement caching for frequently asked questions to avoid redundant API calls. |
-| **Prompt Injection** | Sanitize user inputs to prevent malicious prompts from manipulating the LLM's behavior. Filter outputs to ensure they adhere to the expected format. |
-| **Performance with Large Data**| For larger datasets, migrate the `SQLite` database to `PostgreSQL` and deploy the application with sufficient computing resources. |
+- **Chroma vs FAISS**  
+  - Chroma chosen for persistence + ease of integration with LangChain.  
+  - FAISS is faster at scale but lacks built-in persistence.  
+
+- **Pre-generated DB vs Runtime ingestion**  
+  - Chose to pre-generate `warehouse.db` for reproducibility.  
+  - Trade-off: No live ingestion, but ensures `docker compose up` always works.  
+
+- **Streamlit vs React**  
+  - Streamlit used for speed and Python-native data viz.  
+  - React offers richer UX but adds frontend complexity.  
+
+---
+
+## 4. Risks & Mitigations
+
+- **Data quality issues** (nulls, duplicates, negative costs)  
+  - Mitigation: Built-in ETL checks before populating DB.  
+
+- **RAG grounding quality** (retrieved chunks may be irrelevant)  
+  - Mitigation: Use Recall@k evaluation and few-shot prompting.  
+
+- **Scaling bottlenecks** (SQLite, single-node Chroma)  
+  - Mitigation: Can migrate to Postgres + managed vector DB if needed.  
+
+- **Prompt injection attacks** (malicious queries)  
+  - Mitigation: Add input validation + simple guardrails.  
+
+---
+
+## 5. Alternatives Considered
+
+- **Database**: Could have used Postgres for scalability.  
+- **Vector store**: FAISS as an alternative to Chroma.  
+- **LLM hosting**: OpenAI API vs local LLaMA/Ollama. Currently using OpenAI (pluggable).  
+- **UI**: Flask + templates or React. Streamlit chosen for rapid prototyping.  
+ 
