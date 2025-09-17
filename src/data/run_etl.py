@@ -20,19 +20,19 @@ def main():
     #checking the quality of the dataframes loaded and if found any quality issue then performing required transformation
 
     if billing_issues:
-        print("⚠️ Billing data quality issues:", billing_issues)
+        print("Billing data quality issues:", billing_issues)
         df_billing = transformations.transform_data(df_billing)
 
     resource_issues = quality_checks.run_quality_checks(df_resources)
     if resource_issues:
-        print("⚠️ Resources data quality issues:", resource_issues)
+        print("Resources data quality issues:", resource_issues)
         df_resources = transformations.transform_data(df_resources)
 
     # Loading the dataframes to Sqlite warehouse
     ingestion.load(df_billing, "billing")
     ingestion.load(df_resources, "resources")
 
-    print("✅ ETL completed successfully!")
+    print("ETL completed successfully!")
 
 if __name__ == "__main__":
     main()
