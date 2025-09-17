@@ -9,24 +9,24 @@ from langchain.docstore.document import Document
 from langchain_chroma import Chroma
 from langchain_openai import OpenAIEmbeddings
 
-# Load .env file if you have OPENAI_API_KEY in it
+
 load_dotenv()
 
 # Paths
-DB_PATH = Path("data/processed/warehouse.db")  # SQLite DB with synthetic data
+DB_PATH = Path("data/processed/warehouse.db")  
 VECTOR_STORE_PATH = Path("data/processed/vector_store")
-DOCS_PATH = Path("docs")  # folder containing all your markdown files
+DOCS_PATH = Path("docs")  
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 if not OPENAI_API_KEY:
     raise ValueError("OPENAI_API_KEY not found in environment. Set it in .env or docker-compose.")
 
-# Minimal change: pass the API key explicitly
+
 embeddings_model = OpenAIEmbeddings(
     model="text-embedding-3-small",
     openai_api_key=OPENAI_API_KEY
 )
-# -------------------- FUNCTIONS --------------------
+
 
 def ingest_documents(doc_path, vector_path):
     """Load all markdown files and add to Chroma vector store"""
@@ -62,13 +62,11 @@ def ingest_synthetic_from_db(db_path, vector_path, table_name):
     # Add to vector store
     vector_db = Chroma(persist_directory=str(vector_path), embedding_function=embeddings_model)
     vector_db.add_documents(chunks)
-    # vector_db.persist()  <-- REMOVE THIS
+    
 
     print(f"Ingested {len(chunks)} synthetic rows from table '{table_name}'.")
 
 
-
-# -------------------- MAIN --------------------
 if __name__ == "__main__":
     VECTOR_STORE_PATH.mkdir(parents=True, exist_ok=True)
     DOCS_PATH.mkdir(exist_ok=True)  # make sure folder exists

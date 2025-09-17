@@ -56,9 +56,8 @@ def test_ask_question_empty_string():
     response = client.post("/ask", json={"question": ""})
     assert response.status_code == 400
 
-# -----------------------------
 # /recommendations endpoint tests
-# -----------------------------
+
 @patch('src.analytics.recommendations.find_idle_resources')
 def test_get_recommendations_success(mock_find_idle):
     """Test /recommendations endpoint."""

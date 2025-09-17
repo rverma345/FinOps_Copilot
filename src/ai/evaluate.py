@@ -69,9 +69,7 @@ for item in test_set:
         "SubjectiveScore": s_score
     })
 
-# ------------------------------
-# 4. Save results
-# ------------------------------
+# 4. saving results
 df = pd.DataFrame(results)
 df.to_csv("src/ai/evaluation_results.csv", index=False)
 print("Evaluation completed. Results saved to evaluation_results.csv")
