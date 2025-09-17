@@ -1,3 +1,5 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 # 💰 FinOps Copilot
 
 FinOps Copilot is a cloud cost analytics and recommendation platform using **FastAPI**, **Streamlit**, and **Chroma vector DB**. Users can view KPIs, ask questions in natural language, and get answers with sources.
@@ -219,7 +221,6 @@ finops-copilot/
 ---
 
 ## 📝 License
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 
 MIT License © 2025 Rohan Verma
