@@ -219,5 +219,7 @@ finops-copilot/
 ---
 
 ## 📝 License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 
 MIT License © 2025 Rohan Verma
