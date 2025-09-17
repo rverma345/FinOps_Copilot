@@ -8,9 +8,9 @@ API_URL = "http://api:8000" # fast api backend
 st.set_page_config(page_title="💰 FinOps Copilot", layout="wide")
 st.title("💰 FinOps Copilot")
 
-# --------------------
+
 # Helper function to call API
-# --------------------
+
 def call_api(endpoint: str, method="GET", payload=None, params=None):
     try:
         if method == "GET":
@@ -30,14 +30,13 @@ def call_api(endpoint: str, method="GET", payload=None, params=None):
         st.error(f"API call failed: {e}")
         return None
 
-# --------------------
+
 # Layout
-# --------------------
 tab1, tab2, tab3 = st.tabs(["📊 KPIs", "❓ Ask a Question", "💡 Recommendations"])
 
-# --------------------
+
 # KPIs
-# --------------------
+
 with tab1:
     st.subheader("Key Performance Indicators")
 
@@ -52,9 +51,9 @@ with tab1:
         st.write("🛠 Monthly Cost by Service")
         st.dataframe(pd.DataFrame(data["monthly_cost_by_service"]))
 
-# --------------------
-# Ask a Question
-# --------------------
+
+# Query tab
+
 with tab2:
     st.subheader("Ask FinOps Copilot")
     question = st.text_input("Enter your question")
@@ -70,9 +69,8 @@ with tab2:
         else:
             st.warning("Please enter a question.")
 
-# --------------------
 # Recommendations
-# --------------------
+
 with tab3:
     st.subheader("FinOps Recommendations")
 
