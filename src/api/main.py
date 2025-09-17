@@ -70,7 +70,7 @@ class APIResponse(BaseModel):
     error: Optional[str] = None
 
 
-# ---------------- Endpoints ---------------- #
+#Endpoints 
 @app.get("/kpis", response_model=APIResponse)
 def get_kpis():
     try:
@@ -93,6 +93,10 @@ def get_kpis():
 @app.post("/ask", response_model=APIResponse)
 def ask_question(request: QuestionRequest):
     try:
+        # --- Validate empty question ---
+        if not request.question.strip():
+            raise HTTPException(status_code=400, detail="Question cannot be empty")
+
         month = request.month or "2025-05"
         answer, retrieved_docs = rag_engine.get_answer(request.question)
 
@@ -106,9 +110,12 @@ def ask_question(request: QuestionRequest):
             structured_data=structured_data
         )
         return APIResponse(status="success", data=response)
+    except HTTPException:
+        # Pass through HTTP exceptions (like our 400)
+        raise
     except Exception as e:
         logger.exception("Error in /ask")
-        raise HTTPException(status_code=500, detail=str(e))
+        raise HTTPException(status_code=500, detail=str(e))@app.post("/ask", response_model=APIResponse)
 
 
 @app.get("/recommendations", response_model=APIResponse)
